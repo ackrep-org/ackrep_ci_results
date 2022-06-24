@@ -1,0 +1,44 @@
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-06-23 14:31:33'
+    message: 'feat: show last time passing in entity view'
+    sha: 81bbf196582d5668ce38eff406e60754e203ace4
+  ackrep_data:
+    author: JuliusFiedler
+    branch: implement_ci
+    date: '2022-06-23 10:31:25'
+    message: trigger ci
+    sha: 8439aab6e1f15ec2939f6481f2d77baabf8e3ece
+UKJZI:
+  date: '2022-06-24 01:01:01'
+  issues: ''
+  result: 0
+  runtime: 14.1
+UXMFA:
+  date: '2022-06-24 01:01:01'
+  issues: ''
+  result: 0
+  runtime: 13.8
+LRHZX:
+  date: '2022-06-24 01:01:01'
+  env_version: default_environment:1.0.16. .
+  issues: "Checking <SystemModel (pk: 5, key: LRHZX)> \"(lorenz system broken, 10s)\"\
+    \n08:38:15 INFO       ... Creating exec-script ... \n08:38:15 INFO     execscript-path:\
+    \ /code/ackrep_data_for_unittests/execscript.py\n08:38:15 INFO       ... running\
+    \ exec-script /code/ackrep_data_for_unittests/execscript.py ... \n08:38:20 ERROR\
+    \    Error in execscript: /code/ackrep_data_for_unittests/execscript.py\n08:38:20\
+    \ ERROR    * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\nTraceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data_for_unittests/execscript.py\"\
+    , line 35, in <module>\n    import system_model\n  File \"/code/ackrep_data_for_unittests/system_models/lorenz_system_broken/system_model.py\"\
+    , line 20, in <module>\n    params = import_parameters(md[\"key\"])\n  File \"\
+    /code/ackrep_core/ackrep_core/system_model_management.py\", line 529, in import_parameters\n\
+    \    parameters = importlib.import_module(mod_path)\n  File \"/usr/local/lib/python3.8/importlib/__init__.py\"\
+    , line 127, in import_module\n    return _bootstrap._gcd_import(name[level:],\
+    \ package, level)\n  File \"/code/ackrep_data_for_unittests/system_models/lorenz_system_broken/parameters.py\"\
+    , line 18\n    model_name =_ \"Lorenz_Attractor\"\n                  ^\nSyntaxError:\
+    \ invalid syntax\n\n\nCalculated with default_environment:1.0.16. .\n\nFail.\n"
+  result: 1
+  runtime: 10.3
