@@ -1,0 +1,197 @@
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-06-27 08:33:42'
+    message: remove transfer folder
+    sha: 4a58e539a12a96071157022cbd74314e6fe02c10
+  ackrep_data:
+    author: lxchtschexn
+    branch: systemModelsCatalog
+    date: '2022-06-26 11:06:27'
+    message: MMC Update
+    sha: 10660107c2525dba05739eed2346588254c4d8e6
+WV1L5:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 21.2
+XRV9G:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.5
+7TWE9:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.7
+8RWMB:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 27.4
+HPICZ:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 22.0
+Z7HZY:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 22.1
+M4PDA:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.5
+UKJZI:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.4
+ZPPRG:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.7
+IWTAE:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.7
+NRRYR:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.9
+JC2OP:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.2
+QO8E1:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.2
+LPTFJ:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.5
+BCRJ9:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 4.0
+CZKWU:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.8
+04NUJ:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 13.3
+HOZEE:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 16.5
+AZFKT:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.6
+HRA9W:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 9.2
+JUNSG:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 4.0
+GKKTM:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 10.2
+CK7EX:
+  date: '2022-06-27 08:38:54'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 1, key: CK7EX)> \"(Four-bar Linkage, )\"\n08:42:51\
+    \ INFO       ... Creating exec-script ... \n08:42:51 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:42:51 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:42:54 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\"\
+    , line 12, in <module>\n    from assimulo.solvers import IDA\nModuleNotFoundError:\
+    \ No module named 'assimulo'\n\n        \n\nCalculated with default_environment:1.0.18.\
+    \ .\n\nFail.\n"
+  result: 1
+  runtime: 6.0
+U6B7N:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.1
+BID9I:
+  date: '2022-06-27 08:38:54'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 6, key: BID9I)> \"(Loading Bridge, 10s)\"\n\
+    08:43:04 INFO       ... Creating exec-script ... \n08:43:04 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:43:04 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:43:08 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 2.\n\n     \
+    \   stdout: The input function only consists of the positive half wave of a sinus\
+    \ function. Otherwise it is zero.\n\nComputational Equations:\n\ndot_x1 = x3\n\
+    dot_x2 = x4\ndot_x3 = (g*m*sin(2*x2)/2 + l*m*x4**2*sin(x2) + u1)/(M + m*sin(x2)**2)\n\
+    dot_x4 = (-g*(M + m)*sin(x2) - (l*m*x4**2*sin(x2) + u1)*cos(x2))/(l*(M + m*sin(x2)**2))\n\
+    \nNumerical calculation finished with unexpected result!\n\nDiscrepancy between\
+    \ calculated and expected state values at end of simualtion: [-19.09626104182604,\
+    \ 0.06255539415242291, -0.004186419637575725, 0.026239725984569973]\n\n\n    \
+    \    stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\n/usr/local/lib/python3.8/site-packages/numpy/lib/function_base.py:2387:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\n\n        \n\nCalculated with default_environment:1.0.18.\
+    \ .\n\nInaccurate.\n"
+  result: 2
+  runtime: 6.7
+UXMFA:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.5
+CAS0M:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.4
+OHW5Z:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 13.2
+FD5RW:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.6
+OV6ND:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 7.3
+AJ0PV:
+  date: '2022-06-27 08:38:54'
+  issues: ''
+  result: 0
+  runtime: 6.6
