@@ -1,0 +1,92 @@
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-06-27 13:15:29'
+    message: 'feat: extract plots from ci'
+    sha: 7da4a077944be94dfef01162f19f14bc1ada737c
+  ackrep_data:
+    author: JuliusFiedler
+    branch: implement_ci
+    date: '2022-06-27 12:40:43'
+    message: trigger ci
+    sha: 00ca2c400ee3ad248291d2f20b274e5e685068f2
+GKKTM:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 28.2
+CK7EX:
+  date: '2022-06-27 13:17:22'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 1, key: CK7EX)> \"(Four-bar Linkage, )\"\n13:17:54\
+    \ INFO       ... Creating exec-script ... \n13:17:54 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n13:17:54 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n13:17:57 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\"\
+    , line 11, in <module>\n    from assimulo.solvers import IDA\nModuleNotFoundError:\
+    \ No module named 'assimulo'\n\n        \n\nCalculated with default_environment:1.0.18.\
+    \ .\n\nFail.\n"
+  result: 1
+  runtime: 6.7
+U6B7N:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 8.2
+BID9I:
+  date: '2022-06-27 13:17:22'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 6, key: BID9I)> \"(Loading Bridge, 10s)\"\n\
+    13:18:09 INFO       ... Creating exec-script ... \n13:18:09 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n13:18:09 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n13:18:13 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 2.\n\n     \
+    \   stdout: The input function only consists of the positive half wave of a sinus\
+    \ function. Otherwise it is zero.\n\nComputational Equations:\n\ndot_x1 = x3\n\
+    dot_x2 = x4\ndot_x3 = (g*m*sin(2*x2)/2 + l*m*x4**2*sin(x2) + u1)/(M + m*sin(x2)**2)\n\
+    dot_x4 = (-g*(M + m)*sin(x2) - (l*m*x4**2*sin(x2) + u1)*cos(x2))/(l*(M + m*sin(x2)**2))\n\
+    \nNumerical calculation finished with unexpected result!\n\nDiscrepancy between\
+    \ calculated and expected state values at end of simualtion: [-19.09626104182604,\
+    \ 0.06255539415242291, -0.004186419637575725, 0.026239725984569973]\n\n\n    \
+    \    stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\n/usr/local/lib/python3.8/site-packages/numpy/lib/function_base.py:2387:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\n\n        \n\nCalculated with default_environment:1.0.18.\
+    \ .\n\nInaccurate.\n"
+  result: 2
+  runtime: 7.5
+UXMFA:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 7.4
+CAS0M:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 7.1
+OHW5Z:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 14.9
+FD5RW:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 7.4
+OV6ND:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 8.1
+AJ0PV:
+  date: '2022-06-27 13:17:22'
+  issues: ''
+  result: 0
+  runtime: 7.4
