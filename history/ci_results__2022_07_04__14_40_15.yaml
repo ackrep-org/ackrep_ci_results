@@ -1,0 +1,227 @@
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-04 12:33:15'
+    message: cleanup celery related code
+    sha: 7dc0e06c96a8ab46de4fa1991592fe6245d34327
+  ackrep_data:
+    author: lxchtschexn
+    branch: systemModelsCatalog
+    date: '2022-07-04 14:39:09'
+    message: four bar linkage
+    sha: f8849b13513990e8f7336b1d1b4e2e751a3e0158
+WV1L5:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 25.3
+XRV9G:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.4
+7TWE9:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.7
+8RWMB:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 13.3
+HPICZ:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 24.9
+Z7HZY:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 27.7
+M4PDA:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.2
+UKJZI:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.2
+ZPPRG:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 10.5
+IWTAE:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 10.4
+NRRYR:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.7
+JC2OP:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 10.0
+QO8E1:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.2
+LPTFJ:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
+BCRJ9:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 5.0
+CZKWU:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.5
+04NUJ:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 16.5
+HOZEE:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 19.3
+AZFKT:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
+HRA9W:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 11.0
+JUNSG:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 5.2
+GKKTM:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 12.4
+CK7EX:
+  date: '2022-07-04 14:40:15'
+  issues: "Checking <SystemModel (pk: 1, key: CK7EX)> \"(Four-bar Linkage, )\"\n14:45:14\
+    \ INFO       ... Creating exec-script ... \n14:45:14 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n14:45:14 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n14:45:21 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Constraints:\n\nl1*cos(x3) + l2*cos(x1 + x3) - l3*cos(x2) - l4\nl1*sin(x3)\
+    \ + l2*sin(x1 + x3) - l3*sin(x2)\n\n\nODEs:\n\nJ2*xddot1 + J2*xddot3 + g*m2*s2*cos(x1\
+    \ + x3) + l1*m2*s2*xddot3*cos(x1) + l1*m2*s2*xdot3**2*sin(x1) + l2*lambda_1*sin(x1\
+    \ + x3) - l2*lambda_2*cos(x1 + x3) + m2*s2**2*xddot1 + m2*s2**2*xddot3\nJ3*xddot2\
+    \ + g*m3*s3*cos(x2) - l3*lambda_1*sin(x2) + l3*lambda_2*cos(x2) + m3*s3**2*xddot2\n\
+    J1*xddot3 + J2*xddot1 + J2*xddot3 + g*l1*m2*cos(x3) + g*m1*s1*cos(x3) + g*m2*s2*cos(x1\
+    \ + x3) + l1**2*m2*xddot3 + l1*lambda_1*sin(x3) - l1*lambda_2*cos(x3) + l1*m2*s2*xddot1*cos(x1)\
+    \ + 2*l1*m2*s2*xddot3*cos(x1) - l1*m2*s2*xdot1**2*sin(x1) - 2*l1*m2*s2*xdot1*xdot3*sin(x1)\
+    \ + l2*lambda_1*sin(x1 + x3) - l2*lambda_2*cos(x1 + x3) + m1*s1**2*xddot3 + m2*s2**2*xddot1\
+    \ + m2*s2**2*xddot3 - u1\n\n\n\n\n        stderr: * Owlready2 * Warning: optimized\
+    \ Cython parser module 'owlready2_optimized' is not available, defaulting to slower\
+    \ Python implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\", line\
+    \ 40, in simulate\n    dae_model_func = model.get_dae_model_func()\n  File \"\
+    /code/ackrep_data/system_models/four_bar_linkage_system/system_model.py\", line\
+    \ 136, in get_dae_model_func\n    dae_mod_func = dae.model_func()\nTypeError:\
+    \ model_func() missing 3 required positional arguments: 't', 'yy', and 'yyd'\n\
+    \n        \nFail.\n"
+  result: 1
+  runtime: 27.3
+U6B7N:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.8
+BID9I:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.4
+UXMFA:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
+YHS5B:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 69.8
+CAS0M:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 7.9
+OHW5Z:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 15.7
+FD5RW:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.1
+OV6ND:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.9
+AJ0PV:
+  date: '2022-07-04 14:40:15'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
