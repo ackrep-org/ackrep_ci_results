@@ -11,6 +11,9 @@ commit_logs:
     date: '2022-07-04 14:39:09'
     message: four bar linkage
     sha: f8849b13513990e8f7336b1d1b4e2e751a3e0158
+ci_logs:
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/227
+  build_number: 227
 WV1L5:
   date: '2022-07-04 15:33:57'
   env_version: default_environment:1.0.18. .
