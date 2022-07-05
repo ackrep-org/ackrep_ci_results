@@ -11,6 +11,9 @@ commit_logs:
     date: '2022-06-23 10:31:25'
     message: trigger ci
     sha: 8439aab6e1f15ec2939f6481f2d77baabf8e3ece
+ci_logs:
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/227
+  build_number: 227
 UKJZI:
   date: '2022-06-24 00:00:00'
   issues: ''
