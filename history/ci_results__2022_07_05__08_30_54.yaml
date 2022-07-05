@@ -1,0 +1,233 @@
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-04 12:33:15'
+    message: cleanup celery related code
+    sha: 7dc0e06c96a8ab46de4fa1991592fe6245d34327
+  ackrep_data:
+    author: lxchtschexn
+    branch: systemModelsCatalog
+    date: '2022-07-01 11:37:28'
+    message: four bar linkage doc.pdf
+    sha: f8e8fb4dc8904a7be64b318d6f82a622e69fb518
+WV1L5:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 24.5
+XRV9G:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.8
+7TWE9:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.0
+8RWMB:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 12.7
+HPICZ:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 24.3
+Z7HZY:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 26.9
+M4PDA:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 7.9
+UKJZI:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 7.9
+ZPPRG:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.2
+IWTAE:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.1
+NRRYR:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.4
+JC2OP:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 10.2
+QO8E1:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.9
+LPTFJ:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.0
+BCRJ9:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 6.0
+CZKWU:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.4
+04NUJ:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 17.6
+HOZEE:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 20.1
+AZFKT:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.3
+HRA9W:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 11.2
+JUNSG:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 5.1
+GKKTM:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 12.2
+CK7EX:
+  date: '2022-07-05 08:30:54'
+  issues: "Checking <SystemModel (pk: 1, key: CK7EX)> \"(Four-bar Linkage, )\"\n08:35:47\
+    \ INFO       ... Creating exec-script ... \n08:35:47 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:35:47 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:36:02 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 2.\n\n     \
+    \   stdout: Constraints:\n\nl1*cos(x3) + l2*cos(x1 + x3) - l3*cos(x2) - l4\nl1*sin(x3)\
+    \ + l2*sin(x1 + x3) - l3*sin(x2)\n\n\nODEs:\n\nJ2*xddot1 + J2*xddot3 + g*m2*s2*cos(x1\
+    \ + x3) + l1*m2*s2*xddot3*cos(x1) + l1*m2*s2*xdot3**2*sin(x1) + l2*lambda_1*sin(x1\
+    \ + x3) - l2*lambda_2*cos(x1 + x3) + m2*s2**2*xddot1 + m2*s2**2*xddot3\nJ3*xddot2\
+    \ + g*m3*s3*cos(x2) - l3*lambda_1*sin(x2) + l3*lambda_2*cos(x2) + m3*s3**2*xddot2\n\
+    J1*xddot3 + J2*xddot1 + J2*xddot3 + g*l1*m2*cos(x3) + g*m1*s1*cos(x3) + g*m2*s2*cos(x1\
+    \ + x3) + l1**2*m2*xddot3 + l1*lambda_1*sin(x3) - l1*lambda_2*cos(x3) + l1*m2*s2*xddot1*cos(x1)\
+    \ + 2*l1*m2*s2*xddot3*cos(x1) - l1*m2*s2*xdot1**2*sin(x1) - 2*l1*m2*s2*xdot1*xdot3*sin(x1)\
+    \ + l2*lambda_1*sin(x1 + x3) - l2*lambda_2*cos(x1 + x3) + m1*s1**2*xddot3 + m2*s2**2*xddot1\
+    \ + m2*s2**2*xddot3 - u1\n\n\nNo initialization defined for the problem.\nNo finalization\
+    \ defined for the problem.\nFinal Run Statistics: --- \n\n Number of steps   \
+    \                              : 3632\n Number of function evaluations       \
+    \           : 5920\n Number of Jacobian evaluations                  : 179\n Number\
+    \ of function eval. due to Jacobian eval.  : 1432\n Number of error test failures\
+    \                   : 89\n Number of nonlinear iterations                  : 5920\n\
+    \ Number of nonlinear convergence failures        : 0\n\nSolver options:\n\n Solver\
+    \                       : IDA (BDF)\n Maximal order                : 5\n Suppressed\
+    \ algebr. variables : False\n Tolerances (absolute)        : 1e-06\n Tolerances\
+    \ (relative)        : 1e-06\n\nSimulation interval    : 0.0 - 10.0 seconds.\n\
+    Elapsed simulation time: 7.139008911000019 seconds.\n\nNumerical calculation finished\
+    \ with unexpected result!\n\nDiscrepancy between calculated and expected state\
+    \ values at end of simualtion: [0.0, 0.0029130149822990115, -0.03214785985628055,\
+    \ 0.0003940693897891423, 0.0011601263568739029]\n\n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\n\n        \nInaccurate.\n"
+  result: 2
+  runtime: 35.1
+U6B7N:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.8
+BID9I:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
+UXMFA:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.1
+YHS5B:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 69.7
+CAS0M:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 7.9
+OHW5Z:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 15.7
+FD5RW:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.3
+OV6ND:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 9.0
+AJ0PV:
+  date: '2022-07-05 08:30:54'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 8.2
