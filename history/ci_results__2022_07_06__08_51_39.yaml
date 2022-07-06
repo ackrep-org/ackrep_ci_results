@@ -1,0 +1,585 @@
+ci_logs:
+  build_number: '234'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/234
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-05 08:52:34'
+    message: 'feat: links to ci builds added'
+    sha: 4bb02d5198247afffe8dab1ad94fce211e5ba791
+  ackrep_data:
+    author: lxchtschexn
+    branch: systemModelsCatalog
+    date: '2022-07-06 08:50:29'
+    message: save_plot_in_dir()
+    sha: da44a1b250534da04a20a0ab6dee405ce61eb48b
+WV1L5:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 10, key: WV1L5)> \"(controller design via\
+    \ LQR for electrical resistance, 10s)\"\n08:52:00 INFO       ... Creating exec-script\
+    \ ... \n08:52:00 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:52:00\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:52:05\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/LQR_electrical_resistance/solution.py\"\
+    , line 22, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 26.2
+XRV9G:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 13, key: XRV9G)> \"(controller design via\
+    \ LQR for loading bridge, 10s)\"\n08:52:10 INFO       ... Creating exec-script\
+    \ ... \n08:52:10 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:52:10\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:52:14\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/LQR_loading_bridge/solution.py\"\
+    , line 22, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.5
+7TWE9:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 1, key: 7TWE9)> \"(controller design via\
+    \ LQR for a two mass floating-body system, 10s)\"\n08:52:18 INFO       ... Creating\
+    \ exec-script ... \n08:52:18 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    08:52:18 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n08:52:22 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import\
+    \ solution\n  File \"/code/ackrep_data/problem_solutions/LQR_two_mass_floating_bodies/solution.py\"\
+    , line 22, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.4
+8RWMB:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 18, key: 8RWMB)> \"(PVTOL model, 30s)\"\n\
+    08:52:26 INFO       ... Creating exec-script ... \n08:52:26 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:52:26 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:52:30 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 40, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/PVTOL_2_Forces/solution.py\"\
+    , line 10, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+HPICZ:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 17, key: HPICZ)> \"(acrobot swingup with\
+    \ pytrajecotry, 30s)\"\n08:52:34 INFO       ... Creating exec-script ... \n08:52:34\
+    \ INFO     execscript-path: /code/ackrep_data/execscript.py\n08:52:34 INFO   \
+    \    ... running exec-script /code/ackrep_data/execscript.py ... \n08:52:37 ERROR\
+    \    \n        The command `python /code/ackrep_data/execscript.py` exited with\
+    \ returncode 1.\n\n        stdout: \n\n        stderr: /code/ackrep_data/method_packages/PyTrajectory/_build/pytrajectory/auxiliary.py:1386:\
+    \ SyntaxWarning: \"is\" with a literal. Did you mean \"==\"?\n  if plot_x_idx\
+    \ is \"all\" or plot_x_idx is True:\n* Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 42, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/acrobot_swingup_with_pytrajectory/solution.py\"\
+    , line 14, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+Z7HZY:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 16, key: Z7HZY)> \"(Motion planning for\
+    \ closed kinematic chains using a quasistatic approach, 30s)\"\n08:52:41 INFO\
+    \       ... Creating exec-script ... \n08:52:41 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    08:52:41 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n08:52:45 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 40, in <module>\n    import\
+    \ solution\n  File \"/code/ackrep_data/problem_solutions/closed_kinematic_chains_quasistatic/solution.py\"\
+    , line 20, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+M4PDA:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 4, key: M4PDA)> \"(controller design via\
+    \ coprime decomposition, 10s)\"\n08:52:49 INFO       ... Creating exec-script\
+    \ ... \n08:52:49 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:52:49\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:52:53\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/coprime_decomposition_controller/solution.py\"\
+    , line 17, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.0
+UKJZI:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 9, key: UKJZI)> \"(double integrator transition\
+    \ using PyTrajectory, 3s)\"\n08:52:57 INFO       ... Creating exec-script ...\
+    \ \n08:52:57 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:52:57\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:53:00\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 42, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/double_integrator_transition_with_pytrajectory/solution.py\"\
+    , line 10, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+ZPPRG:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 11, key: ZPPRG)> \"(controller design via\
+    \ full state feedback, 10s)\"\n08:53:04 WARNING  Applying a solution to multiple\
+    \ problems is not yet supported. Taking the last one.\n08:53:04 INFO       ...\
+    \ Creating exec-script ... \n08:53:04 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    08:53:04 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n08:53:08 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import\
+    \ solution\n  File \"/code/ackrep_data/problem_solutions/full_state_feedback/solution.py\"\
+    , line 18, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.2
+IWTAE:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 3, key: IWTAE)> \"(full state observer,\
+    \ 10s)\"\n08:53:12 WARNING  Applying a solution to multiple problems is not yet\
+    \ supported. Taking the last one.\n08:53:13 INFO       ... Creating exec-script\
+    \ ... \n08:53:13 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:53:13\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:53:16\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 44, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/full_state_observer/solution.py\"\
+    , line 21, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.1
+NRRYR:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 19, key: NRRYR)> \"(linear trajectory planning\
+    \ for electrical resistance, 10s)\"\n08:53:21 INFO       ... Creating exec-script\
+    \ ... \n08:53:21 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:53:21\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:53:25\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 46, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/linear_trajectory_electrical_resistance/solution.py\"\
+    , line 18, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.1
+JC2OP:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 8, key: JC2OP)> \"(linear trajectory planning\
+    \ for a loading bridge with load, 10s)\"\n08:53:29 INFO       ... Creating exec-script\
+    \ ... \n08:53:29 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:53:29\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n08:53:32\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 46, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/linear_trajectory_loading_bridge/solution.py\"\
+    , line 16, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+QO8E1:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 21, key: QO8E1)> \"(linear trajectory planning\
+    \ for a two mass floating-body system, 10s)\"\n08:53:36 INFO       ... Creating\
+    \ exec-script ... \n08:53:36 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    08:53:36 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n08:53:40 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 46, in <module>\n    import\
+    \ solution\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 17, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.1
+LPTFJ:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 15, key: LPTFJ)> \"(lorenz attractor model,\
+    \ 1s)\"\n08:53:44 INFO       ... Creating exec-script ... \n08:53:44 INFO    \
+    \ execscript-path: /code/ackrep_data/execscript.py\n08:53:44 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n08:53:48 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 40, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/lorenz_attractor/solution.py\"\
+    , line 9, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.6
+BCRJ9:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 5.1
+CZKWU:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 5, key: CZKWU)> \"(tracking controller design\
+    \ and nonlinear trajectory planning for electrical resistance, 10s)\"\n08:53:57\
+    \ INFO       ... Creating exec-script ... \n08:53:57 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:53:57 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:54:01 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 42, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_electrical_resistance/solution.py\"\
+    , line 11, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+04NUJ:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 14, key: 04NUJ)> \"(tracking controller\
+    \ design and nonlinear trajectory planning for a two mass floating-body system,\
+    \ 10s)\"\n08:54:05 INFO       ... Creating exec-script ... \n08:54:05 INFO   \
+    \  execscript-path: /code/ackrep_data/execscript.py\n08:54:05 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n08:54:08 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 42, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 15, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.6
+HOZEE:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 2, key: HOZEE)> \"(PyInduct backstepping\
+    \ example, 10s)\"\n08:54:12 INFO       ... Creating exec-script ... \n08:54:12\
+    \ INFO     execscript-path: /code/ackrep_data/execscript.py\n08:54:12 INFO   \
+    \    ... running exec-script /code/ackrep_data/execscript.py ... \n08:54:18 ERROR\
+    \    \n        The command `python /code/ackrep_data/execscript.py` exited with\
+    \ returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 42, in <module>\n    import solution\n\
+    \  File \"/code/ackrep_data/problem_solutions/pyinduct_backstepping_example/solution.py\"\
+    , line 11, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 10.1
+AZFKT:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 12, key: AZFKT)> \"(reduced observer design,\
+    \ 10s)\"\n08:54:22 INFO       ... Creating exec-script ... \n08:54:22 INFO   \
+    \  execscript-path: /code/ackrep_data/execscript.py\n08:54:22 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n08:54:26 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 44, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/reduced_observer_two_mass_floating_bodies/solution.py\"\
+    , line 12, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 8.0
+HRA9W:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <ProblemSolution (pk: 20, key: HRA9W)> \"(Region of Attractivity\
+    \ approximation using local adaptive grid refinement, 10s)\"\n08:54:30 INFO  \
+    \     ... Creating exec-script ... \n08:54:30 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    08:54:30 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n08:54:34 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 40, in <module>\n    import\
+    \ solution\n  File \"/code/ackrep_data/problem_solutions/roa_approximation/solution.py\"\
+    , line 7, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+JUNSG:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: ''
+  result: 0
+  runtime: 5.2
+GKKTM:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 1, key: GKKTM)> \"(Brockett Integrator, 15s)\"\
+    \n08:54:44 INFO       ... Creating exec-script ... \n08:54:44 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:54:44 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:54:46 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/brockett_integrator_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.6
+CK7EX:
+  date: '2022-07-06 08:51:39'
+  issues: "Checking <SystemModel (pk: 9, key: CK7EX)> \"(Four-bar Linkage, )\"\n08:55:07\
+    \ INFO       ... Creating exec-script ... \n08:55:07 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:07 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:09 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\"\
+    , line 9, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \nFail.\n"
+  result: 1
+  runtime: 23.5
+U6B7N:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 7, key: U6B7N)> \"(Kapitza's Pendulum, 10s)\"\
+    \n08:55:14 INFO       ... Creating exec-script ... \n08:55:14 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:14 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:16 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/kapitzas_pendulum_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.6
+BID9I:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 8, key: BID9I)> \"(Loading Bridge, 10s)\"\n\
+    08:55:20 INFO       ... Creating exec-script ... \n08:55:20 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:20 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:22 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/loading_bridge_system/simulation.py\"\
+    , line 8, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.5
+UXMFA:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 2, key: UXMFA)> \"(Lorenz System, 10s)\"\n08:55:27\
+    \ INFO       ... Creating exec-script ... \n08:55:27 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:27 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:29 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/lorenz_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.4
+YHS5B:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 3, key: YHS5B)> \"(Modular Multilevel Converters\
+    \ (MMC), 50s)\"\n08:55:33 INFO       ... Creating exec-script ... \n08:55:33 INFO\
+    \     execscript-path: /code/ackrep_data/execscript.py\n08:55:33 INFO       ...\
+    \ running exec-script /code/ackrep_data/execscript.py ... \n08:55:35 ERROR   \
+    \ \n        The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/mmc_system/simulation.py\"\
+    , line 8, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.5
+CAS0M:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 4, key: CAS0M)> \"(N Integrator Chain, 10s)\"\
+    \n08:55:40 INFO       ... Creating exec-script ... \n08:55:40 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:40 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:42 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/n_integrator_chain_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.4
+OHW5Z:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 10, key: OHW5Z)> \"(PVTOL with 2 forces, 15s)\"\
+    \n08:55:46 INFO       ... Creating exec-script ... \n08:55:46 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:46 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:48 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/pvtol_system/simulation.py\"\
+    , line 8, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.5
+FD5RW:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 11, key: FD5RW)> \"(Roessler Attractor, 10s)\"\
+    \n08:55:52 INFO       ... Creating exec-script ... \n08:55:52 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:52 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:55:55 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/roessler_attractor_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.4
+OV6ND:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 6, key: OV6ND)> \"(Stable PTn System, 10s)\"\
+    \n08:55:59 INFO       ... Creating exec-script ... \n08:55:59 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n08:55:59 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n08:56:01 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/stable_pt_n_system/simulation.py\"\
+    , line 13, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.5
+AJ0PV:
+  date: '2022-07-06 08:51:39'
+  env_version: default_environment:1.0.18. .
+  issues: "Checking <SystemModel (pk: 5, key: AJ0PV)> \"(Two Mass Floating Bodies,\
+    \ 10s)\"\n08:56:05 INFO       ... Creating exec-script ... \n08:56:05 INFO   \
+    \  execscript-path: /code/ackrep_data/execscript.py\n08:56:05 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n08:56:08 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 36, in <module>\n    import simulation\n  File \"/code/ackrep_data/system_models/two_mass_floating_bodies_system/simulation.py\"\
+    , line 8, in <module>\n    from ackrep_core.system_model_management import save_plot_in_dir\n\
+    ImportError: cannot import name 'save_plot_in_dir' from 'ackrep_core.system_model_management'\
+    \ (/code/ackrep_core/ackrep_core/system_model_management.py)\n\n        \n\nCalculated\
+    \ with default_environment:1.0.18. .\n\nFail.\n"
+  result: 1
+  runtime: 6.5
