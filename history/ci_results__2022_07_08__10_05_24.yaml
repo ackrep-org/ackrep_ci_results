@@ -1,0 +1,176 @@
+ci_logs:
+  build_number: '236'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/236
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-08 09:54:39'
+    message: 'feat: manually download artifacts, run jupyter server from container'
+    sha: a35b16dedd832638c3849b0d6852ad38263e6588
+  ackrep_data:
+    author: JuliusFiedler
+    branch: systemModelsCatalog
+    date: '2022-07-08 10:04:11'
+    message: test data with new env and core version
+    sha: 08b13e30c2d90e28161b8e37b15a265b490a2ca6
+WV1L5:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 86.7
+XRV9G:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.6
+7TWE9:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 10.0
+8RWMB:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 13.5
+HPICZ:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 26.9
+Z7HZY:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 27.2
+M4PDA:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.5
+UKJZI:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.5
+ZPPRG:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.7
+IWTAE:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.7
+NRRYR:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.9
+JC2OP:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 10.5
+QO8E1:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 10.3
+LPTFJ:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 8.6
+BCRJ9:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 5.6
+CZKWU:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 10.0
+04NUJ:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 17.4
+HOZEE:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 21.1
+AZFKT:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.7
+HRA9W:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 13.0
+JUNSG:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 5.6
+GKKTM:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 12.7
+CK7EX:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 18.9
+U6B7N:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.7
+BID9I:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.2
+UXMFA:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.0
+YHS5B:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 64.3
+CAS0M:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 8.8
+OHW5Z:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 16.9
+FD5RW:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.0
+OV6ND:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 24.3
+AJ0PV:
+  date: '2022-07-08 10:05:24'
+  issues: ''
+  result: 0
+  runtime: 9.1
