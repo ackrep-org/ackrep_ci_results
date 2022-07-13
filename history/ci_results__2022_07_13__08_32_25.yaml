@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '247'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/247
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-13 08:26:36'
+    message: 'feat: notebook unittest'
+    sha: ce6990f57ebb8a6c24ee57829548041a0b190e66
+  ackrep_data:
+    author: JuliusFiedler
+    branch: feature_notebook_entity
+    date: '2022-07-13 07:22:37'
+    message: 'feat: first test notebook added'
+    sha: 5a8813d3f68e52880d310ec101148bb8f81d372a
