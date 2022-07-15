@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '249'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/249
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-15 15:06:02'
+    message: 'feat: convert notebook to html, send as artifact, embed'
+    sha: 11f4a2c7ff9a254a426a1b25d7ea2c6ecbb5529c
+  ackrep_data:
+    author: JuliusFiedler
+    branch: feature_notebook_entity
+    date: '2022-07-15 15:14:02'
+    message: 'fix: remove outputs of notebook'
+    sha: 338a2e88770b8ea1cf43d3524cc664299737f4f3
