@@ -1,0 +1,677 @@
+ci_logs:
+  build_number: '251'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/251
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-15 15:24:36'
+    message: 'feat: convert notebook to html, send as artifact, embed'
+    sha: ecf5bc7a53898e2c2a4349fe8bbf2f9eb9902069
+  ackrep_data:
+    author: lxchtschexn
+    branch: systemModelsCatalog
+    date: '2022-07-07 10:36:29'
+    message: save_plot_in_dir(path)
+    sha: 86a86cb1ee37d25d3c0c2b687a9eac9a5f30ea89
+WV1L5:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 15, key: WV1L5)> \"(controller design via\
+    \ LQR for electrical resistance, 10s)\"\n10:39:07 INFO       ... Creating exec-script\
+    \ ... \n10:39:07 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:39:07\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:39:11\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 47, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/LQR_electrical_resistance/solution.py\"\
+    , line 85, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/LQR_electrical_resistance/solution.py\"\
+    , line 100, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 22.8
+XRV9G:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 8, key: XRV9G)> \"(controller design via\
+    \ LQR for loading bridge, 10s)\"\n10:39:15 INFO       ... Creating exec-script\
+    \ ... \n10:39:15 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:39:15\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:39:18\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 47, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/LQR_loading_bridge/solution.py\"\
+    , line 91, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/LQR_loading_bridge/solution.py\"\
+    , line 126, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+7TWE9:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 14, key: 7TWE9)> \"(controller design via\
+    \ LQR for a two mass floating-body system, 10s)\"\n10:39:22 INFO       ... Creating\
+    \ exec-script ... \n10:39:22 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    10:39:22 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n10:39:26 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nNo artists with labels found to\
+    \ put in legend.  Note that artists whose label start with an underscore are ignored\
+    \ when legend() is called with no argument.\nNo artists with labels found to put\
+    \ in legend.  Note that artists whose label start with an underscore are ignored\
+    \ when legend() is called with no argument.\nNo artists with labels found to put\
+    \ in legend.  Note that artists whose label start with an underscore are ignored\
+    \ when legend() is called with no argument.\nNo artists with labels found to put\
+    \ in legend.  Note that artists whose label start with an underscore are ignored\
+    \ when legend() is called with no argument.\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 47, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/LQR_two_mass_floating_bodies/solution.py\"\
+    , line 93, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/LQR_two_mass_floating_bodies/solution.py\"\
+    , line 117, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+8RWMB:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 17, key: 8RWMB)> \"(PVTOL model, 30s)\"\n\
+    10:39:30 INFO       ... Creating exec-script ... \n10:39:30 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:39:30 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:39:36 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    /opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387: RuntimeWarning:\
+    \ invalid value encountered in _lambdifygenerated (vectorized)\n  outputs = ufunc(*inputs)\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 43, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/PVTOL_2_Forces/solution.py\", line\
+    \ 26, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/PVTOL_2_Forces/solution.py\"\
+    , line 70, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 9.9
+HPICZ:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 4, key: HPICZ)> \"(acrobot swingup with\
+    \ pytrajecotry, 30s)\"\n10:39:40 INFO       ... Creating exec-script ... \n10:39:40\
+    \ INFO     execscript-path: /code/ackrep_data/execscript.py\n10:39:40 INFO   \
+    \    ... running exec-script /code/ackrep_data/execscript.py ... \n10:39:58 ERROR\
+    \    \n        The command `python /code/ackrep_data/execscript.py` exited with\
+    \ returncode 1.\n\n        stdout: WARNING: \t 1 / 1 Currently not possible to\
+    \ make use of integrator chains together with projective constraints.\nINFO: \t\
+    \ 1 / 1 Iteration #1; spline parts_ 10\nINFO: \t 1 / 1 par = []\nINFO: \t 1 /\
+    \ 1 Iteration #2; spline parts_ 20\nINFO: \t 1 / 1 par = []\nINFO: \t 1 / 1 Iteration\
+    \ #3; spline parts_ 40\nINFO: \t 1 / 1   --> reached desired accuracy: True\n\
+    INFO: \t 1 / 1 par = []\n\n\n        stderr: /code/ackrep_data/method_packages/PyTrajectory/_build/pytrajectory/auxiliary.py:1386:\
+    \ SyntaxWarning: \"is\" with a literal. Did you mean \"==\"?\n  if plot_x_idx\
+    \ is \"all\" or plot_x_idx is True:\n* Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 45, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/acrobot_swingup_with_pytrajectory/solution.py\"\
+    , line 65, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/acrobot_swingup_with_pytrajectory/solution.py\"\
+    , line 117, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 22.4
+Z7HZY:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 18, key: Z7HZY)> \"(Motion planning for\
+    \ closed kinematic chains using a quasistatic approach, 30s)\"\n10:40:02 INFO\
+    \       ... Creating exec-script ... \n10:40:02 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    10:40:02 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n10:40:19 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n******************************************************************************\n\
+    This program contains Ipopt, a library for large-scale nonlinear optimization.\n\
+    \ Ipopt is released as open source code under the Eclipse Public License (EPL).\n\
+    \         For more information visit https://github.com/coin-or/Ipopt\n******************************************************************************\n\
+    \n\n\n        stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 43, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/closed_kinematic_chains_quasistatic/solution.py\"\
+    , line 495, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/closed_kinematic_chains_quasistatic/solution.py\"\
+    , line 546, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 20.9
+M4PDA:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 1, key: M4PDA)> \"(controller design via\
+    \ coprime decomposition, 10s)\"\n10:40:23 INFO       ... Creating exec-script\
+    \ ... \n10:40:23 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:40:23\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:40:27\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/control/timeresp.py:941:\
+    \ UserWarning: Non-zero initial condition given for transfer function system.\
+    \ Internal conversion to state space used; may not be consistent with given X0.\n\
+    \  warnings.warn(\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 47, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/coprime_decomposition_controller/solution.py\"\
+    , line 53, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/coprime_decomposition_controller/solution.py\"\
+    , line 70, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.6
+UKJZI:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 2, key: UKJZI)> \"(double integrator transition\
+    \ using PyTrajectory, 3s)\"\n10:40:31 INFO       ... Creating exec-script ...\
+    \ \n10:40:31 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:40:31\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:40:34\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: INFO: \t 1 / 1 Iteration #1; spline parts_\
+    \ 10\nINFO: \t 1 / 1   --> reached desired accuracy: True\nINFO: \t 1 / 1 par\
+    \ = []\n\n\n        stderr: * Owlready2 * Warning: optimized Cython parser module\
+    \ 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 45, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/double_integrator_transition_with_pytrajectory/solution.py\"\
+    , line 57, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/double_integrator_transition_with_pytrajectory/solution.py\"\
+    , line 83, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.3
+ZPPRG:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 10, key: ZPPRG)> \"(controller design via\
+    \ full state feedback, 10s)\"\n10:40:38 WARNING  Applying a solution to multiple\
+    \ problems is not yet supported. Taking the last one.\n10:40:38 INFO       ...\
+    \ Creating exec-script ... \n10:40:38 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    10:40:38 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n10:40:42 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 47, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/full_state_feedback/solution.py\"\
+    , line 84, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/full_state_feedback/solution.py\"\
+    , line 113, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+IWTAE:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 9, key: IWTAE)> \"(full state observer,\
+    \ 10s)\"\n10:40:46 WARNING  Applying a solution to multiple problems is not yet\
+    \ supported. Taking the last one.\n10:40:46 INFO       ... Creating exec-script\
+    \ ... \n10:40:46 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:40:46\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:40:50\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 47, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/full_state_observer/solution.py\"\
+    , line 94, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/full_state_observer/solution.py\"\
+    , line 114, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+NRRYR:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 5, key: NRRYR)> \"(linear trajectory planning\
+    \ for electrical resistance, 10s)\"\n10:40:53 INFO       ... Creating exec-script\
+    \ ... \n10:40:53 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:40:53\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:40:57\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/control/timeresp.py:941:\
+    \ UserWarning: Non-zero initial condition given for transfer function system.\
+    \ Internal conversion to state space used; may not be consistent with given X0.\n\
+    \  warnings.warn(\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 49, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/linear_trajectory_electrical_resistance/solution.py\"\
+    , line 85, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_electrical_resistance/solution.py\"\
+    , line 101, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+JC2OP:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 13, key: JC2OP)> \"(linear trajectory planning\
+    \ for a loading bridge with load, 10s)\"\n10:41:01 INFO       ... Creating exec-script\
+    \ ... \n10:41:01 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:41:01\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:41:05\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 49, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_loading_bridge/solution.py\"\
+    , line 68, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_loading_bridge/solution.py\"\
+    , line 92, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 8.2
+QO8E1:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 6, key: QO8E1)> \"(linear trajectory planning\
+    \ for a two mass floating-body system, 10s)\"\n10:41:09 INFO       ... Creating\
+    \ exec-script ... \n10:41:09 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    10:41:09 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n10:41:13 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/control/timeresp.py:941:\
+    \ UserWarning: Non-zero initial condition given for transfer function system.\
+    \ Internal conversion to state space used; may not be consistent with given X0.\n\
+    \  warnings.warn(\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 49, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/linear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 80, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 97, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 8.1
+CZKWU:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 7, key: CZKWU)> \"(tracking controller design\
+    \ and nonlinear trajectory planning for electrical resistance, 10s)\"\n10:41:17\
+    \ INFO       ... Creating exec-script ... \n10:41:17 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:41:17 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:41:21 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    /opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387: RuntimeWarning:\
+    \ invalid value encountered in _lambdifygenerated (vectorized)\n  outputs = ufunc(*inputs)\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 45, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_electrical_resistance/solution.py\"\
+    , line 64, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_electrical_resistance/solution.py\"\
+    , line 86, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.7
+04NUJ:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 3, key: 04NUJ)> \"(tracking controller design\
+    \ and nonlinear trajectory planning for a two mass floating-body system, 10s)\"\
+    \n10:41:25 INFO       ... Creating exec-script ... \n10:41:25 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:41:25 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:41:34 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    /opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387: RuntimeWarning:\
+    \ invalid value encountered in _lambdifygenerated (vectorized)\n  outputs = ufunc(*inputs)\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 45, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 92, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/nonlinear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 131, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 13.1
+HOZEE:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 11, key: HOZEE)> \"(PyInduct backstepping\
+    \ example, 10s)\"\n10:41:38 INFO       ... Creating exec-script ... \n10:41:38\
+    \ INFO     execscript-path: /code/ackrep_data/execscript.py\n10:41:38 INFO   \
+    \    ... running exec-script /code/ackrep_data/execscript.py ... \n10:41:50 ERROR\
+    \    \n        The command `python /code/ackrep_data/execscript.py` exited with\
+    \ returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/pyinduct/core.py:1377:\
+    \ IntegrationWarning: The maximum number of subdivisions (50) has been achieved.\n\
+    \  If increasing the limit yields no improvement it is advised to analyze \n \
+    \ the integrand in order to determine the difficulties.  If the position of a\
+    \ \n  local difficulty can be determined (singularity, discontinuity) one will\
+    \ \n  probably gain from splitting up the interval and calling the integrator\
+    \ \n  on the subranges.  Perhaps a special-purpose integrator should be used.\n\
+    \  real_integral = integrate.quad(real_func, a, b, **kwargs)\nTraceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 45, in\
+    \ <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n  File\
+    \ \"/code/ackrep_data/problem_solutions/pyinduct_backstepping_example/solution.py\"\
+    , line 70, in solve\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 15.8
+AZFKT:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 16, key: AZFKT)> \"(reduced observer design,\
+    \ 10s)\"\n10:41:54 INFO       ... Creating exec-script ... \n10:41:54 INFO   \
+    \  execscript-path: /code/ackrep_data/execscript.py\n10:41:54 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n10:41:58 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 47, in <module>\n    solution_data = solution.solve(ps.ProblemSpecification)\n\
+    \  File \"/code/ackrep_data/problem_solutions/reduced_observer_two_mass_floating_bodies/solution.py\"\
+    , line 47, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/reduced_observer_two_mass_floating_bodies/solution.py\"\
+    , line 81, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.5
+HRA9W:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <ProblemSolution (pk: 12, key: HRA9W)> \"(Region of Attractivity\
+    \ approximation using local adaptive grid refinement, 10s)\"\n10:42:02 INFO  \
+    \     ... Creating exec-script ... \n10:42:02 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    10:42:02 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n10:42:07 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 43, in <module>\n    solution_data\
+    \ = solution.solve(ps.ProblemSpecification)\n  File \"/code/ackrep_data/problem_solutions/roa_approximation/solution.py\"\
+    , line 48, in solve\n    save_plot(problem_spec, solution_data)\n  File \"/code/ackrep_data/problem_solutions/roa_approximation/solution.py\"\
+    , line 61, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 9.6
+GKKTM:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 4, key: GKKTM)> \"(Brockett Integrator, 15s)\"\
+    \n10:42:12 INFO       ... Creating exec-script ... \n10:42:12 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:12 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:42:18 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Simulation with input functions: u1 = sin(omega*t), u2 = cos(omega*t)\n\
+    \nComputational Equations:\n\ndot_x1 = u1\ndot_x2 = u2\ndot_x3 = u1*x2 - u2*x1\n\
+    \n\n        stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\nTraceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 39, in\
+    \ <module>\n    simulation_data = simulation.simulate()\n  File \"/code/ackrep_data/system_models/brockett_integrator_system/simulation.py\"\
+    , line 36, in simulate\n    save_plot(sim)\n  File \"/code/ackrep_data/system_models/brockett_integrator_system/simulation.py\"\
+    , line 54, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 10.3
+CK7EX:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 1, key: CK7EX)> \"(Four-bar Linkage, )\"\n10:42:21\
+    \ INFO       ... Creating exec-script ... \n10:42:21 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:21 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:42:30 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Constraints:\n\nl1*cos(x3) + l2*cos(x1 + x3) - l3*cos(x2) - l4\nl1*sin(x3)\
+    \ + l2*sin(x1 + x3) - l3*sin(x2)\n\n\nODEs:\n\nJ2*xddot1 + J2*xddot3 + g*m2*s2*cos(x1\
+    \ + x3) + l1*m2*s2*xddot3*cos(x1) + l1*m2*s2*xdot3**2*sin(x1) + l2*lambda_1*sin(x1\
+    \ + x3) - l2*lambda_2*cos(x1 + x3) + m2*s2**2*xddot1 + m2*s2**2*xddot3\nJ3*xddot2\
+    \ + g*m3*s3*cos(x2) - l3*lambda_1*sin(x2) + l3*lambda_2*cos(x2) + m3*s3**2*xddot2\n\
+    J1*xddot3 + J2*xddot1 + J2*xddot3 + g*l1*m2*cos(x3) + g*m1*s1*cos(x3) + g*m2*s2*cos(x1\
+    \ + x3) + l1**2*m2*xddot3 + l1*lambda_1*sin(x3) - l1*lambda_2*cos(x3) + l1*m2*s2*xddot1*cos(x1)\
+    \ + 2*l1*m2*s2*xddot3*cos(x1) - l1*m2*s2*xdot1**2*sin(x1) - 2*l1*m2*s2*xdot1*xdot3*sin(x1)\
+    \ + l2*lambda_1*sin(x1 + x3) - l2*lambda_2*cos(x1 + x3) + m1*s1**2*xddot3 + m2*s2**2*xddot1\
+    \ + m2*s2**2*xddot3 - u1\n\n\nNo initialization defined for the problem.\nNo finalization\
+    \ defined for the problem.\nFinal Run Statistics: --- \n\n Number of steps   \
+    \                              : 3989\n Number of function evaluations       \
+    \           : 6489\n Number of Jacobian evaluations                  : 194\n Number\
+    \ of function eval. due to Jacobian eval.  : 1552\n Number of error test failures\
+    \                   : 100\n Number of nonlinear iterations                  :\
+    \ 6489\n Number of nonlinear convergence failures        : 0\n\nSolver options:\n\
+    \n Solver                       : IDA (BDF)\n Maximal order                : 5\n\
+    \ Suppressed algebr. variables : False\n Tolerances (absolute)        : 1e-06\n\
+    \ Tolerances (relative)        : 1e-06\n\nSimulation interval    : 0.0 - 11.0\
+    \ seconds.\nElapsed simulation time: 4.823301054999945 seconds.\n\n\n        stderr:\
+    \ * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\nTraceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 39, in\
+    \ <module>\n    simulation_data = simulation.simulate()\n  File \"/code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\"\
+    , line 68, in simulate\n    save_plot(simulation_data)\n  File \"/code/ackrep_data/system_models/four_bar_linkage_system/simulation.py\"\
+    , line 93, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 12.8
+U6B7N:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 2, key: U6B7N)> \"(Kapitza's Pendulum, 10s)\"\
+    \n10:42:34 INFO       ... Creating exec-script ... \n10:42:34 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:34 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:42:37 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = x2\ndot_x2 = -2*gamma*x2 - (g/l\
+    \ + u1/l)*sin(x1)\n\n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/kapitzas_pendulum_system/simulation.py\", line\
+    \ 37, in simulate\n    save_plot(sim)\n  File \"/code/ackrep_data/system_models/kapitzas_pendulum_system/simulation.py\"\
+    , line 65, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.0
+BID9I:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 10, key: BID9I)> \"(Loading Bridge, 10s)\"\n\
+    10:42:41 INFO       ... Creating exec-script ... \n10:42:41 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:41 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:42:44 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: The input function only consists of the positive half wave of a sinus\
+    \ function. Otherwise it is zero.\n\nComputational Equations:\n\ndot_x1 = x3\n\
+    dot_x2 = x4\ndot_x3 = (g*m*sin(2*x2)/2 + l*m*x4**2*sin(x2) + u1)/(M + m*sin(x2)**2)\n\
+    dot_x4 = (-g*(M + m)*sin(x2) - (l*m*x4**2*sin(x2) + u1)*cos(x2))/(l*(M + m*sin(x2)**2))\n\
+    \n\n        stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/loading_bridge_system/simulation.py\", line 49,\
+    \ in simulate\n    save_plot(simulation_data)\n  File \"/code/ackrep_data/system_models/loading_bridge_system/simulation.py\"\
+    , line 81, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 6.9
+UXMFA:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 3, key: UXMFA)> \"(Lorenz System, 10s)\"\n10:42:48\
+    \ INFO       ... Creating exec-script ... \n10:42:48 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:48 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:42:51 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = -sigma*x1 + sigma*x2\ndot_x2\
+    \ = r*x1 - x1*x3 - x2\ndot_x3 = -b*x3 + x1*x2\n\n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nNo artists with labels found to\
+    \ put in legend.  Note that artists whose label start with an underscore are ignored\
+    \ when legend() is called with no argument.\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/execscript.py\", line 39, in <module>\n    simulation_data\
+    \ = simulation.simulate()\n  File \"/code/ackrep_data/system_models/lorenz_system/simulation.py\"\
+    , line 35, in simulate\n    save_plot(sol)\n  File \"/code/ackrep_data/system_models/lorenz_system/simulation.py\"\
+    , line 49, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 6.8
+YHS5B:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 11, key: YHS5B)> \"(Modular Multilevel Converters\
+    \ (MMC), 50s)\"\n10:42:55 INFO       ... Creating exec-script ... \n10:42:55 INFO\
+    \     execscript-path: /code/ackrep_data/execscript.py\n10:42:55 INFO       ...\
+    \ running exec-script /code/ackrep_data/execscript.py ... \n10:43:43 ERROR   \
+    \ \n        The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: Computational Equations:\n\ndot_x1 = v_DC*x6 - re(x7*conjugate(u2))\n\
+    dot_x2 = -2*u1*x6 - (-M_z*(omega*re(x7) + (-L*omega*re(x7) - R*im(x7) + im(u2))/L)\
+    \ + im(u2))*im(x5) - (-M_z*(-omega*im(x7) + (L*omega*im(x7) - R*re(x7) - v_g +\
+    \ re(u2))/L) + re(u2))*re(x5)\ndot_x3 = -I*omega*x3 - 2*u1*x7 + v_DC*x5 - exp(-3*I*x8)*conjugate(u2)*conjugate(x7)\n\
+    dot_x4 = -I*omega*x4 - 2*u1*x5 + v_DC*x7 - 2*x6*(-M_z*(I*omega*x7 + (u2 - v_g\
+    \ - x7*(I*L*omega + R))/L) + u2) - (-M_z*(-I*omega*conjugate(x7) + (-v_g - (-I*L*omega\
+    \ + R)*conjugate(x7) + conjugate(u2))/L) + conjugate(u2))*exp(-3*I*x8)*conjugate(x5)\n\
+    dot_x5 = (-I*omega*x5*(L_z + M_z) + u4)/(L_z + M_z)\ndot_x6 = u3/(L_z + M_z)\n\
+    dot_x7 = (u2 - v_g - x7*(I*L*omega + R))/L\ndot_x8 = pi*omega/180\n\n\n      \
+    \  stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\nTraceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 39, in\
+    \ <module>\n    simulation_data = simulation.simulate()\n  File \"/code/ackrep_data/system_models/mmc_system/simulation.py\"\
+    , line 48, in simulate\n    save_plot(sol)\n  File \"/code/ackrep_data/system_models/mmc_system/simulation.py\"\
+    , line 98, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 52.0
+CAS0M:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 8, key: CAS0M)> \"(N Integrator Chain, 10s)\"\
+    \n10:43:47 INFO       ... Creating exec-script ... \n10:43:47 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:43:47 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:43:50 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = x2\ndot_x2 = x3\ndot_x3 = x4\n\
+    dot_x4 = x5\ndot_x5 = u1\n\n\n        stderr: * Owlready2 * Warning: optimized\
+    \ Cython parser module 'owlready2_optimized' is not available, defaulting to slower\
+    \ Python implementation\n/opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/n_integrator_chain_system/simulation.py\", line\
+    \ 59, in simulate\n    save_plot(sim)\n  File \"/code/ackrep_data/system_models/n_integrator_chain_system/simulation.py\"\
+    , line 79, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 6.7
+OHW5Z:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 7, key: OHW5Z)> \"(PVTOL with 2 forces, 15s)\"\
+    \n10:43:54 INFO       ... Creating exec-script ... \n10:43:54 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:43:54 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:44:02 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = x2\ndot_x2 = -(u1 + u2)*sin(x5)/m\n\
+    dot_x3 = x4\ndot_x4 = -g + (u1 + u2)*cos(x5)/m\ndot_x5 = pi*x6/180\ndot_x6 = pi*l*(-u1\
+    \ + u2)/(180*J)\n\n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    /opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2387: RuntimeWarning:\
+    \ invalid value encountered in _lambdifygenerated (vectorized)\n  outputs = ufunc(*inputs)\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/pvtol_system/simulation.py\", line 38, in simulate\n\
+    \    save_plot(sim)\n  File \"/code/ackrep_data/system_models/pvtol_system/simulation.py\"\
+    , line 83, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 12.1
+FD5RW:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 9, key: FD5RW)> \"(Roessler Attractor, 10s)\"\
+    \n10:44:06 INFO       ... Creating exec-script ... \n10:44:06 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:44:06 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:44:09 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = -x2 - x3\ndot_x2 = a*x2 + x1\n\
+    dot_x3 = b*x1 - c*x3 + x1*x3\n\n\n        stderr: * Owlready2 * Warning: optimized\
+    \ Cython parser module 'owlready2_optimized' is not available, defaulting to slower\
+    \ Python implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/roessler_attractor_system/simulation.py\", line\
+    \ 33, in simulate\n    save_plot(sim)\n  File \"/code/ackrep_data/system_models/roessler_attractor_system/simulation.py\"\
+    , line 52, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 6.9
+OV6ND:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 6, key: OV6ND)> \"(Stable PTn System, 10s)\"\
+    \n10:44:13 INFO       ... Creating exec-script ... \n10:44:13 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:44:13 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:44:16 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: Simulation for PT1 to PT5 with input function u=sin(omega*t) \n\n\
+    Computational Equations PT1:\n\ndot_x1 = (K*u1 - x1)/T0 \n\nComputational Equations\
+    \ PT2:\n\ndot_x1 = x2 \n\ndot_x2 = (K*u1 - x1 - x2*(T1 + T2))/(T1*T2) \n\nComputational\
+    \ Equations PT3:\n\ndot_x1 = x2 \n\ndot_x2 = x3 \n\ndot_x3 = (K*u1 - x1 - x2*(T0\
+    \ + T1 + T2) - x3*(T0*T1 + T0*T2 + T1*T2))/(T0*T1*T2) \n\nComputational Equations\
+    \ PT4:\n\ndot_x1 = x2 \n\ndot_x2 = x3 \n\ndot_x3 = x4 \n\ndot_x4 = (K*u1 - x1\
+    \ - x2*(T0 + T1 + T2 + T3) - x3*(T0*T1 + T0*T2 + T0*T3 + T1*T2 + T1*T3 + T2*T3)\
+    \ - x4*(T0*T1*T2 + T0*T1*T3 + T0*T2*T3 + T1*T2*T3))/(T0*T1*T2*T3) \n\nComputational\
+    \ Equations PT5:\n\ndot_x1 = x2 \n\ndot_x2 = x3 \n\ndot_x3 = x4 \n\ndot_x4 = x5\
+    \ \n\ndot_x5 = (K*u1 - x1 - x2*(T0 + T1 + T2 + T3 + T4) - x3*(T0*T1 + T0*T2 +\
+    \ T0*T3 + T0*T4 + T1*T2 + T1*T3 + T1*T4 + T2*T3 + T2*T4 + T3*T4) - x4*(T0*T1*T2\
+    \ + T0*T1*T3 + T0*T1*T4 + T0*T2*T3 + T0*T2*T4 + T0*T3*T4 + T1*T2*T3 + T1*T2*T4\
+    \ + T1*T3*T4 + T2*T3*T4) - x5*(T0*T1*T2*T3 + T0*T1*T2*T4 + T0*T1*T3*T4 + T0*T2*T3*T4\
+    \ + T1*T2*T3*T4))/(T0*T1*T2*T3*T4) \n\n\n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/execscript.py\", line 39, in <module>\n    simulation_data\
+    \ = simulation.simulate()\n  File \"/code/ackrep_data/system_models/stable_pt_n_system/simulation.py\"\
+    , line 60, in simulate\n    save_plot(sim)\n  File \"/code/ackrep_data/system_models/stable_pt_n_system/simulation.py\"\
+    , line 99, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.2
+AJ0PV:
+  date: '2022-07-18 10:38:48'
+  env_version: default_conda_environment:0.1.1
+  issues: "Checking <SystemModel (pk: 5, key: AJ0PV)> \"(Two Mass Floating Bodies,\
+    \ 10s)\"\n10:44:20 INFO       ... Creating exec-script ... \n10:44:20 INFO   \
+    \  execscript-path: /code/ackrep_data/execscript.py\n10:44:20 INFO       ... running\
+    \ exec-script /code/ackrep_data/execscript.py ... \n10:44:23 ERROR    \n     \
+    \   The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: Computational Equations:\n\ndot_x1 = x3\ndot_x2 = x4\n\
+    dot_x3 = (g*m1 - k1*u1/(k2 + x1)**2 - kf*(x1 - x2))/m1\ndot_x4 = (g*m2 + kf*(x1\
+    \ - x2))/m2\n\n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    No artists with labels found to put in legend.  Note that artists whose label\
+    \ start with an underscore are ignored when legend() is called with no argument.\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/two_mass_floating_bodies_system/simulation.py\"\
+    , line 42, in simulate\n    save_plot(simulation_data)\n  File \"/code/ackrep_data/system_models/two_mass_floating_bodies_system/simulation.py\"\
+    , line 68, in save_plot\n    save_plot_in_dir(os.path.dirname(__file__))\nTypeError:\
+    \ save_plot_in_dir() missing 1 required positional argument: 'plt'\n\n       \
+    \ \n\nCalculated with default_conda_environment:0.1.1\n\nFail.\n"
+  result: 1
+  runtime: 7.0
