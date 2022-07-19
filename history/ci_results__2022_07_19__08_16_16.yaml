@@ -1,0 +1,196 @@
+ci_logs:
+  build_number: '252'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/252
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-19 08:05:46'
+    message: 'feat: smm save_plot without plt as param'
+    sha: 203b792ee4511154bfa3300dc7245094902315e6
+  ackrep_data:
+    author: JuliusFiedler
+    branch: systemModelsCatalog
+    date: '2022-07-19 08:14:26'
+    message: 'Merge pull request #22 from ackrep-org/feature_notebook_entity'
+    sha: 6b5d10d45bd1fe54e347032e9b483e7453d11223
+7WIQH:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 27.1
+WV1L5:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.3
+XRV9G:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.4
+7TWE9:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.7
+8RWMB:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 11.2
+HPICZ:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 23.5
+Z7HZY:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 22.2
+M4PDA:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.4
+UKJZI:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.3
+ZPPRG:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.5
+IWTAE:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.5
+NRRYR:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.7
+JC2OP:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 9.0
+QO8E1:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 9.0
+CZKWU:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.7
+04NUJ:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 14.2
+HOZEE:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 18.0
+AZFKT:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.5
+HRA9W:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 11.1
+GKKTM:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 10.8
+CK7EX:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 13.9
+U6B7N:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.2
+BID9I:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 7.7
+UXMFA:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 7.6
+YHS5B:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 54.2
+CAS0M:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 7.5
+OHW5Z:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 13.6
+FD5RW:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 7.7
+OV6ND:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 8.3
+AJ0PV:
+  date: '2022-07-19 08:16:16'
+  env_version: default_conda_environment:0.1.2
+  issues: ''
+  result: 0
+  runtime: 7.7
