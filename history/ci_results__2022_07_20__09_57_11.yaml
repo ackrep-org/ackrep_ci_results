@@ -1,0 +1,58 @@
+ci_logs:
+  build_number: '262'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/262
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-20 07:18:14'
+    message: fix ut after data repo cleanup
+    sha: d79e594f23fd3a54fec93ef7517e58b2c3e55300
+  ackrep_data:
+    author: lxchtschexn
+    branch: develop
+    date: '2022-07-20 09:51:41'
+    message: Merge branch 'feature_brockett_problem_solution_pair' into develop
+    sha: 5395a6a528312bce31039512532debc68dd33b1d
+7WIQH:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 30.1
+WV1L5:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 10.6
+XRV9G:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 11.0
+7TWE9:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 11.6
+8RWMB:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 15.1
+HPICZ:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 28.7
+Z7HZY:
+  date: '2022-07-20 09:57:11'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 29.3
