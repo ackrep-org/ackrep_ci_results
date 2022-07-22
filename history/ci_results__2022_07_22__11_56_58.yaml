@@ -1,0 +1,58 @@
+ci_logs:
+  build_number: '267'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/267
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-22 11:55:39'
+    message: 'feat: timeout entity check, smarter version of docker stop'
+    sha: a23d8edbbb7216ee1160878f76f79f2dcfc043ed
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-22 08:04:34'
+    message: 'fix: notebook plot generation'
+    sha: bacd128cbdb8f68aa5a01879d2d4381611ae68fc
+7WIQH:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 27.9
+WV1L5:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 8.7
+XRV9G:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 8.8
+7TWE9:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 9.0
+8RWMB:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 11.7
+HPICZ:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 24.2
+Z7HZY:
+  date: '2022-07-22 11:56:58'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 22.6
