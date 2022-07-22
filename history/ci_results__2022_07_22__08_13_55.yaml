@@ -1,0 +1,59 @@
+ci_logs:
+  build_number: '266'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/266
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-22 08:11:21'
+    message: 'fix: relative -> absolute paths, pull_and_show_env_info updated for
+      outside container'
+    sha: 7e3e53eb6e95b6730bf80ee86e5edbce9f549f22
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-22 08:04:34'
+    message: 'fix: notebook plot generation'
+    sha: bacd128cbdb8f68aa5a01879d2d4381611ae68fc
+7WIQH:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 31.5
+WV1L5:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 10.0
+XRV9G:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 10.3
+7TWE9:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 10.7
+8RWMB:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 14.3
+HPICZ:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 27.0
+Z7HZY:
+  date: '2022-07-22 08:13:55'
+  env_version: default_conda_environment:0.1.5
+  issues: ''
+  result: 0
+  runtime: 27.9
