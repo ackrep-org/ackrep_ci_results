@@ -1,0 +1,17 @@
+ci_logs:
+  build_number: '290'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/290
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 16:06:39'
+    message: 'feat: _solution_data, _system_model_data -> _data, download CI folder
+      structure'
+    sha: 0071e9ca97e7592702af2d7712cd585967a5550e
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 16:03:15'
+    message: 'feat: _data folder renaming, multiple plots per entity'
+    sha: 6ba6c9eddaec7a82d51297dc2a0bb98c485f76d4
