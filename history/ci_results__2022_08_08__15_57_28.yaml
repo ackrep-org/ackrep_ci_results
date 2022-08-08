@@ -1,0 +1,41 @@
+ci_logs:
+  build_number: '288'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/288
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 15:25:53'
+    message: 'feat: _solution_data, _system_model_data -> _data, download CI folder
+      structure'
+    sha: cb78c042c83953b7bdc12d1f0695bacf7ccce195
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 15:56:12'
+    message: 'feat: _data folder renaming, multiple plots per entity'
+    sha: 7f14d9d669eb1b7e99e8e7110dc135ddb8521f3b
+UXMFA:
+  date: '2022-08-08 15:57:28'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 27.4
+CK7EX:
+  date: '2022-08-08 15:57:28'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 15.6
+CZKWU:
+  date: '2022-08-08 15:57:28'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.9
+IG3GA:
+  date: '2022-08-08 15:57:28'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 14.0
