@@ -1,0 +1,248 @@
+ci_logs:
+  build_number: '282'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/282
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-07-22 11:55:39'
+    message: 'feat: timeout entity check, smarter version of docker stop'
+    sha: a23d8edbbb7216ee1160878f76f79f2dcfc043ed
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 10:10:50'
+    message: cosmetic changes
+    sha: e68f86422538e8cc186cfb1019f9b99694445b18
+7WIQH:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 29.3
+WV1L5:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.3
+XRV9G:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.4
+7TWE9:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.7
+8RWMB:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 12.9
+QWRHA:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: "Checking <ProblemSolution (pk: 20, key: QWRHA)> \"(SINDy for Lotka Volterra\
+    \ Model, 15s)\"\n10:14:22 INFO       ... Creating exec-script ... \n10:14:22 INFO\
+    \     execscript-path: /code/ackrep_data/execscript.py\n10:14:22 INFO       ...\
+    \ running exec-script /code/ackrep_data/execscript.py ... \n10:14:26 ERROR   \
+    \ \n        The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 40, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/PySINDy_identify_volterra/solution.py\"\
+    , line 4, in <module>\n    from click import style\nModuleNotFoundError: No module\
+    \ named 'click'\n\n        \n\nCalculated with default_conda_environment:0.1.6\n\
+    \nFail.\n"
+  result: 1
+  runtime: 8.1
+HPICZ:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 24.9
+Z7HZY:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 25.8
+W8WD1:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: "Checking <ProblemSolution (pk: 8, key: W8WD1)> \"(controller design for\
+    \ the brockett-integrator, 35s)\"\n10:15:22 INFO       ... Creating exec-script\
+    \ ... \n10:15:22 INFO     execscript-path: /code/ackrep_data/execscript.py\n10:15:22\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n10:18:22\
+    \ ERROR    Entity calculation reached timeout (180s).\n\nCalculated with default_conda_environment:0.1.6\n\
+    \nFail.\n"
+  result: 1
+  runtime: 184.7
+M4PDA:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.4
+UKJZI:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.4
+ZPPRG:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.6
+IWTAE:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.6
+NRRYR:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.7
+JC2OP:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 10.2
+QO8E1:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 10.1
+CZKWU:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.9
+04NUJ:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 16.4
+HOZEE:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 19.1
+AZFKT:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.5
+HRA9W:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 12.5
+GKKTM:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 12.5
+CK7EX:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 15.3
+1VY9F:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 14.3
+U6B7N:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.3
+IG3GA:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 11.5
+BID9I:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.7
+UXMFA:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.9
+DRZGT:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.6
+YHS5B:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 64.6
+CAS0M:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.4
+OHW5Z:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 15.4
+FD5RW:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.7
+OV6ND:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 9.6
+AJ0PV:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 8.6
+IKNYP:
+  date: '2022-08-08 10:13:06'
+  env_version: default_conda_environment:0.1.6
+  issues: ''
+  result: 0
+  runtime: 16.5
