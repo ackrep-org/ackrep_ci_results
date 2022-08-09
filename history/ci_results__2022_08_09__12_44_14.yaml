@@ -1,0 +1,487 @@
+ci_logs:
+  build_number: '299'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/299
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-09 12:42:46'
+    message: fix artifact copying
+    sha: 00e59c53d7f90e0aaf1ee0edc8c8d5097c19b102
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-09 12:15:17'
+    message: 'fix: pygraph plotting issue'
+    sha: c1a878a605cf2ed85313b720827c9836931fb7b6
+7WIQH:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 28.7
+WV1L5:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 11, key: WV1L5)> \"(controller design via\
+    \ LQR for electrical resistance, 10s)\"\n12:44:48 INFO       ... Creating exec-script\
+    \ ... \n12:44:48 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:44:48\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:44:49\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: Traceback (most recent\
+    \ call last):\n  File \"/code/ackrep_data/problem_solutions/LQR_electrical_resistance/solution.py\"\
+    , line 11, in <module>\n    import method_LQR as mlqr  # noqa\n  File \"/code/ackrep_data/method_packages/method_LQR/_build/method_LQR.py\"\
+    , line 10, in <module>\n    import control as ctr\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/lib/python3.8/site-packages/scipy/linalg/../../../../libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \nDuring handling of the above exception, another exception occurred:\n\nTraceback\
+    \ (most recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 44,\
+    \ in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/LQR_electrical_resistance/solution.py\"\
+    , line 14, in <module>\n    from method_packages.method_LQR import method_LQR\
+    \ as mlqr\nImportError: cannot import name 'method_LQR' from 'method_packages.method_LQR'\
+    \ (unknown location)\n\n        \n\nCalculated with default_conda_environment:0.1.9\n\
+    \nFail.\n"
+  result: 1
+  runtime: 5.7
+XRV9G:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 1, key: XRV9G)> \"(controller design via\
+    \ LQR for loading bridge, 10s)\"\n12:44:53 INFO       ... Creating exec-script\
+    \ ... \n12:44:53 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:44:53\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:44:56\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/problem_solutions/LQR_loading_bridge/solution.py\", line\
+    \ 11, in <module>\n    import method_LQR as mlqr  # noqa\n  File \"/code/ackrep_data/method_packages/method_LQR/_build/method_LQR.py\"\
+    , line 10, in <module>\n    import control as ctr\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \nDuring handling of the above exception, another exception occurred:\n\nTraceback\
+    \ (most recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 44,\
+    \ in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/LQR_loading_bridge/solution.py\"\
+    , line 14, in <module>\n    from method_packages.method_LQR import method_LQR\
+    \ as mlqr\nImportError: cannot import name 'method_LQR' from 'method_packages.method_LQR'\
+    \ (unknown location)\n\n        \n\nCalculated with default_conda_environment:0.1.9\n\
+    \nFail.\n"
+  result: 1
+  runtime: 7.7
+7TWE9:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 4, key: 7TWE9)> \"(controller design via\
+    \ LQR for a two mass floating-body system, 10s)\"\n12:45:01 INFO       ... Creating\
+    \ exec-script ... \n12:45:01 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    12:45:01 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n12:45:04 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/problem_solutions/LQR_two_mass_floating_bodies/solution.py\"\
+    , line 11, in <module>\n    import method_LQR as mlqr  # noqa\n  File \"/code/ackrep_data/method_packages/method_LQR/_build/method_LQR.py\"\
+    , line 10, in <module>\n    import control as ctr\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \nDuring handling of the above exception, another exception occurred:\n\nTraceback\
+    \ (most recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 44,\
+    \ in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/LQR_two_mass_floating_bodies/solution.py\"\
+    , line 14, in <module>\n    from method_packages.method_LQR import method_LQR\
+    \ as mlqr\nImportError: cannot import name 'method_LQR' from 'method_packages.method_LQR'\
+    \ (unknown location)\n\n        \n\nCalculated with default_conda_environment:0.1.9\n\
+    \nFail.\n"
+  result: 1
+  runtime: 7.7
+8RWMB:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 12.7
+QWRHA:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 20, key: QWRHA)> \"(SINDy for Lotka Volterra\
+    \ Model, 15s)\"\n12:45:22 INFO       ... Creating exec-script ... \n12:45:22 INFO\
+    \     execscript-path: /code/ackrep_data/execscript.py\n12:45:22 INFO       ...\
+    \ running exec-script /code/ackrep_data/execscript.py ... \n12:45:26 ERROR   \
+    \ \n        The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 40, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/PySINDy_identify_volterra/solution.py\"\
+    , line 11, in <module>\n    import pysindy as ps\n  File \"/opt/conda/lib/python3.8/site-packages/pysindy/__init__.py\"\
+    , line 9, in <module>\n    from . import differentiation\n  File \"/opt/conda/lib/python3.8/site-packages/pysindy/differentiation/__init__.py\"\
+    , line 4, in <module>\n    from .smoothed_finite_difference import SmoothedFiniteDifference\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/pysindy/differentiation/smoothed_finite_difference.py\"\
+    , line 1, in <module>\n    from scipy.signal import savgol_filter\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\"\
+    , line 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/lib/python3.8/site-packages/scipy/linalg/../../../../libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \n        \n\nCalculated with default_conda_environment:0.1.9\n\nFail.\n"
+  result: 1
+  runtime: 8.7
+HPICZ:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 22.9
+Z7HZY:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 25.6
+W8WD1:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 8, key: W8WD1)> \"(controller design for\
+    \ the brockett-integrator, 35s)\"\n12:46:19 INFO       ... Creating exec-script\
+    \ ... \n12:46:19 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:46:19\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:49:19\
+    \ ERROR    Entity calculation reached timeout (180s).\n\nCalculated with default_conda_environment:0.1.9\n\
+    \nFail.\n"
+  result: 1
+  runtime: 184.5
+M4PDA:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 13, key: M4PDA)> \"(controller design via\
+    \ coprime decomposition, 10s)\"\n12:49:24 INFO       ... Creating exec-script\
+    \ ... \n12:49:24 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:49:24\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:49:26\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: Traceback (most recent\
+    \ call last):\n  File \"/code/ackrep_data/execscript.py\", line 44, in <module>\n\
+    \    import solution\n  File \"/code/ackrep_data/problem_solutions/coprime_decomposition_controller/solution.py\"\
+    , line 15, in <module>\n    import control\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \n        \n\nCalculated with default_conda_environment:0.1.9\n\nFail.\n"
+  result: 1
+  runtime: 6.7
+UKJZI:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 10.1
+ZPPRG:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 2, key: ZPPRG)> \"(controller design via\
+    \ full state feedback, 10s)\"\n12:49:41 WARNING  Applying a solution to multiple\
+    \ problems is not yet supported. Taking the last one.\n12:49:41 INFO       ...\
+    \ Creating exec-script ... \n12:49:41 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    12:49:41 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n12:49:44 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2\
+    \ * Warning: optimized Cython parser module 'owlready2_optimized' is not available,\
+    \ defaulting to slower Python implementation\nTraceback (most recent call last):\n\
+    \  File \"/code/ackrep_data/problem_solutions/full_state_feedback/solution.py\"\
+    , line 7, in <module>\n    import method_full_state_feedback as ftf  # noqa\n\
+    \  File \"/code/ackrep_data/method_packages/full_state_feedback_controller/_build/method_full_state_feedback.py\"\
+    , line 10, in <module>\n    import control as ctr\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \nDuring handling of the above exception, another exception occurred:\n\nTraceback\
+    \ (most recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 44,\
+    \ in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/full_state_feedback/solution.py\"\
+    , line 10, in <module>\n    from method_packages.method_full_state_feedback import\
+    \ method_full_state_feedback as ftf\nModuleNotFoundError: No module named 'method_packages.method_full_state_feedback'\n\
+    \n        \n\nCalculated with default_conda_environment:0.1.9\n\nFail.\n"
+  result: 1
+  runtime: 7.9
+IWTAE:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 14, key: IWTAE)> \"(full state observer,\
+    \ 10s)\"\n12:49:49 WARNING  Applying a solution to multiple problems is not yet\
+    \ supported. Taking the last one.\n12:49:49 INFO       ... Creating exec-script\
+    \ ... \n12:49:49 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:49:49\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:49:52\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning:\
+    \ optimized Cython parser module 'owlready2_optimized' is not available, defaulting\
+    \ to slower Python implementation\nTraceback (most recent call last):\n  File\
+    \ \"/code/ackrep_data/problem_solutions/full_state_observer/solution.py\", line\
+    \ 7, in <module>\n    import method_observer_full_reduced as ofr  # noqa\n  File\
+    \ \"/code/ackrep_data/method_packages/method_observer_full_reduced/_build/method_observer_full_reduced.py\"\
+    , line 12, in <module>\n    import control as ctr\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \nDuring handling of the above exception, another exception occurred:\n\nTraceback\
+    \ (most recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 44,\
+    \ in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/full_state_observer/solution.py\"\
+    , line 11, in <module>\n    from method_packages.method_observer_full_reduced\
+    \ import method_observer_full_reduced as ofr\nImportError: cannot import name\
+    \ 'method_observer_full_reduced' from 'method_packages.method_observer_full_reduced'\
+    \ (unknown location)\n\n        \n\nCalculated with default_conda_environment:0.1.9\n\
+    \nFail.\n"
+  result: 1
+  runtime: 7.8
+NRRYR:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 12, key: NRRYR)> \"(linear trajectory planning\
+    \ for electrical resistance, 10s)\"\n12:49:57 INFO       ... Creating exec-script\
+    \ ... \n12:49:57 INFO     execscript-path: /code/ackrep_data/execscript.py\n12:49:57\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n12:49:59\
+    \ ERROR    \n        The command `python /code/ackrep_data/execscript.py` exited\
+    \ with returncode 1.\n\n        stdout: \n\n        stderr: Traceback (most recent\
+    \ call last):\n  File \"/code/ackrep_data/execscript.py\", line 46, in <module>\n\
+    \    import solution\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_electrical_resistance/solution.py\"\
+    , line 15, in <module>\n    import control\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \n        \n\nCalculated with default_conda_environment:0.1.9\n\nFail.\n"
+  result: 1
+  runtime: 6.7
+JC2OP:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 9.8
+QO8E1:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: "Checking <ProblemSolution (pk: 19, key: QO8E1)> \"(linear trajectory planning\
+    \ for a two mass floating-body system, 10s)\"\n12:50:13 INFO       ... Creating\
+    \ exec-script ... \n12:50:13 INFO     execscript-path: /code/ackrep_data/execscript.py\n\
+    12:50:13 INFO       ... running exec-script /code/ackrep_data/execscript.py ...\
+    \ \n12:50:15 ERROR    \n        The command `python /code/ackrep_data/execscript.py`\
+    \ exited with returncode 1.\n\n        stdout: \n\n        stderr: Traceback (most\
+    \ recent call last):\n  File \"/code/ackrep_data/execscript.py\", line 46, in\
+    \ <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/linear_trajectory_two_mass_floating_bodies/solution.py\"\
+    , line 15, in <module>\n    import control\n  File \"/opt/conda/lib/python3.8/site-packages/control/__init__.py\"\
+    , line 49, in <module>\n    from .bdalg import *\n  File \"/opt/conda/lib/python3.8/site-packages/control/bdalg.py\"\
+    , line 57, in <module>\n    from . import xferfcn as tf\n  File \"/opt/conda/lib/python3.8/site-packages/control/xferfcn.py\"\
+    , line 56, in <module>\n    from scipy.signal import tf2zpk, zpk2tf, cont2discrete\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/__init__.py\", line\
+    \ 309, in <module>\n    from . import _sigtools, windows\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/__init__.py\"\
+    , line 41, in <module>\n    from ._windows import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/signal/windows/_windows.py\"\
+    , line 7, in <module>\n    from scipy import linalg, special, fft as sp_fft\n\
+    \  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/__init__.py\", line\
+    \ 91, in <module>\n    from ._helper import next_fast_len\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_helper.py\"\
+    , line 3, in <module>\n    from ._pocketfft import helper as _helper\n  File \"\
+    /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/__init__.py\", line\
+    \ 3, in <module>\n    from .basic import *\n  File \"/opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/basic.py\"\
+    , line 6, in <module>\n    from . import pypocketfft as pfft\nImportError: /opt/conda/bin/../lib/libstdc++.so.6:\
+    \ version `GLIBCXX_3.4.30' not found (required by /opt/conda/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so)\n\
+    \n        \n\nCalculated with default_conda_environment:0.1.9\n\nFail.\n"
+  result: 1
+  runtime: 6.7
+CZKWU:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 9.5
+04NUJ:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.9
+  issues: ''
+  result: 0
+  runtime: 16.2
+HOZEE:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 48.9
+AZFKT:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.5
+HRA9W:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 12.0
+GKKTM:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 12.2
+CK7EX:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 15.3
+1VY9F:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 15.3
+U6B7N:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.2
+IG3GA:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 11.5
+BID9I:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.6
+UXMFA:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.6
+DRZGT:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.3
+YHS5B:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 62.6
+CAS0M:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.3
+OHW5Z:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 15.2
+FD5RW:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.6
+OV6ND:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.8
+AJ0PV:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 8.7
+IKNYP:
+  date: '2022-08-09 12:44:14'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 16.8
