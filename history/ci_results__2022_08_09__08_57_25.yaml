@@ -1,0 +1,263 @@
+ci_logs:
+  build_number: '292'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/292
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-09 08:55:32'
+    message: 'fix: artifact copying'
+    sha: a0351bb3582d203e3d6496f22052a99eda15a43d
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-08 16:03:15'
+    message: 'feat: _data folder renaming, multiple plots per entity'
+    sha: 6ba6c9eddaec7a82d51297dc2a0bb98c485f76d4
+7WIQH:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 29.5
+WV1L5:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.5
+XRV9G:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.8
+7TWE9:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.8
+8RWMB:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 13.0
+QWRHA:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: "Checking <ProblemSolution (pk: 20, key: QWRHA)> \"(SINDy for Lotka Volterra\
+    \ Model, 15s)\"\n08:58:41 INFO       ... Creating exec-script ... \n08:58:41 INFO\
+    \     execscript-path: /code/ackrep_data/execscript.py\n08:58:41 INFO       ...\
+    \ running exec-script /code/ackrep_data/execscript.py ... \n08:58:45 ERROR   \
+    \ \n        The command `python /code/ackrep_data/execscript.py` exited with returncode\
+    \ 1.\n\n        stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 40, in <module>\n    import solution\n  File \"/code/ackrep_data/problem_solutions/PySINDy_identify_volterra/solution.py\"\
+    , line 11, in <module>\n    import pysindy as ps\nModuleNotFoundError: No module\
+    \ named 'pysindy'\n\n        \n\nCalculated with default_conda_environment:0.1.7\n\
+    \nFail.\n"
+  result: 1
+  runtime: 8.2
+HPICZ:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 25.0
+Z7HZY:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 26.0
+W8WD1:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: "Checking <ProblemSolution (pk: 8, key: W8WD1)> \"(controller design for\
+    \ the brockett-integrator, 35s)\"\n08:59:41 INFO       ... Creating exec-script\
+    \ ... \n08:59:41 INFO     execscript-path: /code/ackrep_data/execscript.py\n08:59:41\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n09:02:41\
+    \ ERROR    Entity calculation reached timeout (180s).\n\nCalculated with default_conda_environment:0.1.7\n\
+    \nFail.\n"
+  result: 1
+  runtime: 184.6
+M4PDA:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.3
+UKJZI:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.2
+ZPPRG:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.4
+IWTAE:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.4
+NRRYR:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.5
+JC2OP:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.9
+QO8E1:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.9
+CZKWU:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.7
+04NUJ:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 16.2
+HOZEE:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 18.9
+AZFKT:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.4
+HRA9W:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 12.2
+GKKTM:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 12.2
+CK7EX:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 15.3
+1VY9F:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 15.5
+U6B7N:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.2
+IG3GA:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 11.7
+BID9I:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.7
+UXMFA:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.8
+DRZGT:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.5
+YHS5B:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 63.2
+CAS0M:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.4
+OHW5Z:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 15.2
+FD5RW:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.8
+OV6ND:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 9.4
+AJ0PV:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: ''
+  result: 0
+  runtime: 8.5
+IKNYP:
+  date: '2022-08-09 08:57:25'
+  env_version: default_conda_environment:0.1.7
+  issues: "Checking <SystemModel (pk: 10, key: IKNYP)> \"(Wave Equation 1D, 20s)\"\
+    \n09:08:26 INFO       ... Creating exec-script ... \n09:08:26 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n09:08:26 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n09:08:35 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode -6.\n\n    \
+    \    stdout: simulate systems: ['wave equation']\n>>> parse weak formulations\n\
+    >>> parse formulation wave equation\n>>> create state space system\n>>> derive\
+    \ initial conditions\n>>> perform time step integration\n>>> perform postprocessing\n\
+    \n\n        stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\nqt.qpa.plugin:\
+    \ Could not load the Qt platform plugin \"xcb\" in \"\" even though it was found.\n\
+    This application failed to start because no Qt platform plugin could be initialized.\
+    \ Reinstalling the application may fix this problem.\n\nAvailable platform plugins\
+    \ are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland,\
+    \ wayland-xcomposite-egl, wayland-xcomposite-glx, webgl, xcb.\n\n\n        \n\n\
+    Calculated with default_conda_environment:0.1.7\n\nFail.\n"
+  result: 250
+  runtime: 14.1
