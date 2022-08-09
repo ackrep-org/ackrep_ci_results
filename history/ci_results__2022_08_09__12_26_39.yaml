@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '296'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/296
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-09 12:25:15'
+    message: test
+    sha: f5075c93da9195fecfca80eb8e23e850d232048a
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-09 12:15:17'
+    message: 'fix: pygraph plotting issue'
+    sha: c1a878a605cf2ed85313b720827c9836931fb7b6
