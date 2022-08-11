@@ -1,0 +1,237 @@
+ci_logs:
+  build_number: '304'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/304
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-10 10:25:46'
+    message: 'fix: show plots in right order'
+    sha: 668b50af4266a73606ea3b684b56fde9a163382d
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-11 07:53:01'
+    message: plot title added
+    sha: 20f11f52a9bb29cddd874c2cad3461ca7e1da16b
+7WIQH:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 31.0
+WV1L5:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.8
+XRV9G:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.9
+7TWE9:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.1
+8RWMB:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 12.8
+QWRHA:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 11.6
+HPICZ:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 25.9
+Z7HZY:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 27.5
+W8WD1:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: "Checking <ProblemSolution (pk: 8, key: W8WD1)> \"(controller design for\
+    \ the brockett-integrator, 35s)\"\n07:56:49 INFO       ... Creating exec-script\
+    \ ... \n07:56:49 INFO     execscript-path: /code/ackrep_data/execscript.py\n07:56:49\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n07:59:49\
+    \ ERROR    Entity calculation reached timeout (180s).\n\nCalculated with default_conda_environment:0.1.10\n\
+    \nFail.\n"
+  result: 1
+  runtime: 186.1
+M4PDA:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.7
+UKJZI:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.6
+ZPPRG:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.7
+IWTAE:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.8
+NRRYR:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.9
+JC2OP:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.3
+QO8E1:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.4
+CZKWU:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.1
+04NUJ:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 16.2
+HOZEE:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 19.3
+AZFKT:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.1
+HRA9W:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 13.0
+GKKTM:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 13.0
+CK7EX:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 16.4
+1VY9F:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 16.2
+U6B7N:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.3
+IG3GA:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 13.6
+BID9I:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.2
+UXMFA:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.0
+DRZGT:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.5
+YHS5B:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 69.2
+CAS0M:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.7
+OHW5Z:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 16.7
+FD5RW:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.9
+OV6ND:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 10.3
+AJ0PV:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 9.4
+IKNYP:
+  date: '2022-08-11 07:54:23'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 17.7
