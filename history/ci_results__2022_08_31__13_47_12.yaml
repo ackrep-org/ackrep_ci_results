@@ -1,0 +1,52 @@
+ci_logs:
+  build_number: '333'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/333
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-08-12 13:30:00'
+    message: 'fix: templateNotExistError see Issue #14'
+    sha: a65336a728c852b4cad58e52f6940859a098f723
+  ackrep_data:
+    author: RST98\Julius Fiedler
+    branch: develop
+    date: '2022-08-31 13:43:52'
+    message: update converter models
+    sha: ab86bff78126887f97d8073be76843dbe59456f2
+UXMFA:
+  date: '2022-08-31 13:47:12'
+  env_version: default_conda_environment:0.1.10
+  issues: "Checking <SystemModel (pk: 2, key: UXMFA)> \"(Lorenz System, 10s)\"\n13:47:35\
+    \ INFO       ... Creating exec-script ... \n13:47:35 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n13:47:35 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n13:47:39 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: \n\n        stderr: * Owlready2 * Warning: optimized Cython parser\
+    \ module 'owlready2_optimized' is not available, defaulting to slower Python implementation\n\
+    Traceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 35, in <module>\n    import system_model\n  File \"/code/ackrep_data/system_models/lorenz_system/system_model.py\"\
+    , line 17, in <module>\n    params = import_parameters()\n  File \"/code/ackrep_core/ackrep_core/system_model_management.py\"\
+    , line 622, in import_parameters\n    low, high = parameters.pp_range_list[i]\n\
+    TypeError: cannot unpack non-iterable NoneType object\n\n        \n\nCalculated\
+    \ with default_conda_environment:0.1.10\n\nFail.\n"
+  result: 1
+  runtime: 27.0
+7WIQH:
+  date: '2022-08-31 13:47:12'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 12.6
+CZKWU:
+  date: '2022-08-31 13:47:12'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 11.7
+IG3GA:
+  date: '2022-08-31 13:47:12'
+  env_version: default_conda_environment:0.1.10
+  issues: ''
+  result: 0
+  runtime: 14.6
