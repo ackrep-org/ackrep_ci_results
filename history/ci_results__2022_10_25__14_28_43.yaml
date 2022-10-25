@@ -1,0 +1,309 @@
+ci_logs:
+  build_number: '377'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/377
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-10-25 11:38:35'
+    message: fix pyerk imports
+    sha: 8695b0caf90e94dc2e10ae7bc602a10d19070cbe
+  ackrep_data:
+    author: JuliusFiedler
+    branch: feature_more_models
+    date: '2022-10-25 14:27:16'
+    message: update ci config
+    sha: c688d7faa8bdcecc9f5f830aa2584ee25f08b4cf
+7WIQH:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 30.9
+HPICZ:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 27.1
+Z7HZY:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 28.6
+W8WD1:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 21.5
+M4PDA:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.6
+UKJZI:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.4
+ZPPRG:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.5
+IWTAE:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.6
+NRRYR:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.8
+JC2OP:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.4
+QO8E1:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.4
+WV1L5:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.0
+XRV9G:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.6
+7TWE9:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.8
+CZKWU:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.8
+04NUJ:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 17.4
+8RWMB:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.8
+HOZEE:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 20.0
+QWRHA:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.1
+AZFKT:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.5
+HRA9W:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.2
+5CVFG:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 28.7
+SRSTF:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.0
+KAHFE:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.6
+GKKTM:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.5
+OK5BV:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.9
+DFRJY:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.7
+JBTRZ:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.1
+9TM8C:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.6
+CK7EX:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.2
+1VY9F:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 15.4
+R9XXK:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.7
+U6B7N:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.1
+IG3GA:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.4
+BID9I:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: "Checking <SystemModel (pk: 14, key: BID9I)> \"(Loading Bridge, 10s)\"\n\
+    14:36:57 INFO       ... Creating exec-script ... \n14:36:57 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n14:36:57 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n14:37:01 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 1.\n\n     \
+    \   stdout: The input function only consists of the positive half wave of a sinus\
+    \ function. Otherwise it is zero.\n\nComputational Equations:\n\ndot_x1 = x3\n\
+    dot_x2 = x4\ndot_x3 = (g*m*sin(2*x2)/2 + l*m*x4**2*sin(x2) + u1)/(M + m*sin(x2)**2)\n\
+    dot_x4 = (-g*(M + m)*sin(x2) - (l*m*x4**2*sin(x2) + u1)*cos(x2))/(l*(M + m*sin(x2)**2))\n\
+    \n\n        stderr: * Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized'\
+    \ is not available, defaulting to slower Python implementation\n/opt/conda/lib/python3.8/site-packages/numpy/lib/function_base.py:2411:\
+    \ RuntimeWarning: invalid value encountered in _lambdifygenerated (vectorized)\n\
+    \  outputs = ufunc(*inputs)\nTraceback (most recent call last):\n  File \"/code/ackrep_data/execscript.py\"\
+    , line 39, in <module>\n    simulation_data = simulation.simulate()\n  File \"\
+    /code/ackrep_data/system_models/loading_bridge_system/simulation.py\", line 41,\
+    \ in simulate\n    uu = model.uu_func(simulation_data.t, )\nTypeError: uu_rhs()\
+    \ missing 1 required positional argument: 'xx_nv'\n\n        \n\nCalculated with\
+    \ default_conda_environment:0.1.12\n\nFail.\n"
+  result: 1
+  runtime: 8.5
+UXMFA:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.4
+DRZGT:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.4
+YHS5B:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 65.5
+CAS0M:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.9
+IXSV2:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.4
+OHW5Z:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.1
+FD5RW:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.3
+OV6ND:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.0
+AJ0PV:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.1
+IKNYP:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 17.5
+JPCL5:
+  date: '2022-10-25 14:28:43'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.8
