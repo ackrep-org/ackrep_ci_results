@@ -1,0 +1,349 @@
+ci_logs:
+  build_number: '408'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/408
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2022-11-29 10:40:33'
+    message: add erk math to uri mapping, clarify variable
+    sha: 3abadc31a85c9040457fe8b192a2f6094d7dc8b7
+  ackrep_data:
+    author: lxchtschexn
+    branch: feature_more_models
+    date: '2022-12-08 10:30:10'
+    message: correct input in tex
+    sha: cac9675565806e1bc5043af1f34fa693da066e39
+7WIQH:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 27.4
+HPICZ:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 25.1
+Z7HZY:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 25.5
+W8WD1:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 18.8
+M4PDA:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.1
+UKJZI:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.2
+ZPPRG:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.3
+IWTAE:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.3
+NRRYR:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.5
+JC2OP:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.9
+QO8E1:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.7
+WV1L5:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.7
+XRV9G:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.2
+7TWE9:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.3
+CZKWU:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.4
+04NUJ:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 15.7
+8RWMB:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.4
+HOZEE:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 18.2
+QWRHA:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.6
+AZFKT:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.9
+HRA9W:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.8
+5CVFG:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 27.1
+XHINE:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.7
+SRSTF:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.8
+KAHFE:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.6
+GKKTM:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.1
+OK5BV:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.6
+DFRJY:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.6
+JBTRZ:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.9
+9TM8C:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.6
+CK7EX:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.5
+AEYHV:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.8
+1VY9F:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 15.8
+R9XXK:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.4
+AVCTR:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.8
+U6B7N:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.0
+IG3GA:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.2
+BID9I:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 9.5
+UXMFA:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.4
+DRZGT:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.3
+YHS5B:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 62.6
+CAS0M:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.0
+IXSV2:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.5
+OHW5Z:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 14.9
+FD5RW:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.2
+OV6ND:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.9
+BZJ3K:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.4
+HBWN5:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.0
+VVAHU:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: "Checking <SystemModel (pk: 28, key: VVAHU)> \"(two bar manipulator, 10s)\"\
+    \n10:42:38 INFO       ... Creating exec-script ... \n10:42:38 INFO     execscript-path:\
+    \ /code/ackrep_data/execscript.py\n10:42:38 INFO       ... running exec-script\
+    \ /code/ackrep_data/execscript.py ... \n10:43:01 ERROR    \n        The command\
+    \ `python /code/ackrep_data/execscript.py` exited with returncode 2.\n\n     \
+    \   stdout: Computational Equations:\n\ndot_x1 = x3\ndot_x2 = x4\ndot_x3 = -l1*m2*s2*x3**2*(-J2\
+    \ - l1*m2*s2*cos(x2) - m2*s2**2)*sin(x2)/(J1*J2 + J1*m2*s2**2 + J2*l1**2*m2 +\
+    \ J2*m1*s1**2 - l1**2*m2**2*s2**2*cos(x2)**2 + l1**2*m2**2*s2**2 + m1*m2*s1**2*s2**2)\
+    \ + (J2 + m2*s2**2)*(2*l1*m2*s2*x3*x4*sin(x2) + l1*m2*s2*x4**2*sin(x2) + u1)/(J1*J2\
+    \ + J1*m2*s2**2 + J2*l1**2*m2 + J2*m1*s1**2 - l1**2*m2**2*s2**2*cos(x2)**2 + l1**2*m2**2*s2**2\
+    \ + m1*m2*s1**2*s2**2)\ndot_x4 = -l1*m2*s2*x3**2*(J1 + J2 + l1**2*m2 + 2*l1*m2*s2*cos(x2)\
+    \ + m1*s1**2 + m2*s2**2)*sin(x2)/(J1*J2 + J1*m2*s2**2 + J2*l1**2*m2 + J2*m1*s1**2\
+    \ - l1**2*m2**2*s2**2*cos(x2)**2 + l1**2*m2**2*s2**2 + m1*m2*s1**2*s2**2) + (-J2\
+    \ - l1*m2*s2*cos(x2) - m2*s2**2)*(2*l1*m2*s2*x3*x4*sin(x2) + l1*m2*s2*x4**2*sin(x2)\
+    \ + u1)/(J1*J2 + J1*m2*s2**2 + J2*l1**2*m2 + J2*m1*s1**2 - l1**2*m2**2*s2**2*cos(x2)**2\
+    \ + l1**2*m2**2*s2**2 + m1*m2*s1**2*s2**2)\n\nNumerical calculation finished with\
+    \ unexpected result!\n\nDiscrepancy between calculated and expected state values\
+    \ at end of simualtion: [0.01179912420545648, -0.026559317129069893, 0.33668465073853504,\
+    \ -0.5303221139452639]\n\n\n        stderr: * Owlready2 * Warning: optimized Cython\
+    \ parser module 'owlready2_optimized' is not available, defaulting to slower Python\
+    \ implementation\n\n        \n\nCalculated with default_conda_environment:0.1.12\n\
+    \nInaccurate.\n"
+  result: 2
+  runtime: 27.1
+AJ0PV:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.3
+IKNYP:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.4
+JPCL5:
+  date: '2022-12-08 10:31:48'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 8.3
