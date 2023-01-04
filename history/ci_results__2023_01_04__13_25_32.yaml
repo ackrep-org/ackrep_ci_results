@@ -1,0 +1,297 @@
+ci_logs:
+  build_number: '426'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/426
+commit_logs:
+  ackrep_core:
+    author: lxchtschexn
+    branch: develop
+    date: '2022-12-20 15:14:28'
+    message: local strong access
+    sha: fde3e4e394054bfe7888f197cfd84f5e56b1329b
+  ackrep_data:
+    author: RST98\Julius Fiedler
+    branch: develop
+    date: '2023-01-04 13:21:24'
+    message: fix loading bridge equations
+    sha: b137485a082075ba26ac88ca156d8284a77f0c7a
+7WIQH:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 32.7
+HPICZ:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 30.2
+Z7HZY:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 33.8
+W8WD1:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: "Checking <ProblemSolution (pk: 3, key: W8WD1)> \"(controller design for\
+    \ the brockett-integrator, 35s)\"\n13:27:16 INFO       ... Creating exec-script\
+    \ ... \n13:27:16 INFO     execscript-path: /code/ackrep_data/execscript.py\n13:27:16\
+    \ INFO       ... running exec-script /code/ackrep_data/execscript.py ... \n13:30:16\
+    \ ERROR    Entity calculation reached timeout (180s).\n\nCalculated with default_conda_environment:0.1.12\n\
+    \nFail.\n"
+  result: 1
+  runtime: 186.3
+M4PDA:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.0
+UKJZI:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.1
+ZPPRG:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.3
+IWTAE:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.1
+NRRYR:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.6
+JC2OP:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.8
+QO8E1:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.2
+WV1L5:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.6
+XRV9G:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.8
+7TWE9:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.7
+CZKWU:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.0
+04NUJ:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 21.5
+8RWMB:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 17.1
+HOZEE:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 24.3
+QWRHA:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 13.1
+AZFKT:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.3
+HRA9W:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 15.7
+5CVFG:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 35.7
+SRSTF:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.5
+KAHFE:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.8
+GKKTM:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 14.8
+OK5BV:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.3
+DFRJY:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.8
+JBTRZ:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.0
+9TM8C:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.9
+CK7EX:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 20.9
+1VY9F:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 20.3
+R9XXK:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 15.7
+U6B7N:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.5
+IG3GA:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 16.2
+BID9I:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.0
+UXMFA:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 12.0
+DRZGT:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.4
+YHS5B:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 73.7
+CAS0M:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.0
+IXSV2:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.0
+OHW5Z:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 19.4
+FD5RW:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.1
+OV6ND:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.8
+AJ0PV:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 10.2
+IKNYP:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 21.8
+JPCL5:
+  date: '2023-01-04 13:25:32'
+  env_version: default_conda_environment:0.1.12
+  issues: ''
+  result: 0
+  runtime: 11.1
