@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '453'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/453
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 15:35:06'
+    message: fix test due to nbconvert plugin problem
+    sha: 64f8fb38fb1be9fb9e2af3820868fbc90bb94c75
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 15:43:00'
+    message: new structure in container
+    sha: 02c3d892db7e51dcd518725237fbbd89e640d810
