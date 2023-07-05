@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '451'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/451
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 14:39:46'
+    message: folder structure inside default conda env
+    sha: 80abd88a6646b2d9e5d76a84b1f00cb297e21f2c
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 14:28:01'
+    message: remove plots
+    sha: f14b29497a98183c9625d3739da0a48d273d048a
