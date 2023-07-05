@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '454'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/454
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 15:35:06'
+    message: fix test due to nbconvert plugin problem
+    sha: 64f8fb38fb1be9fb9e2af3820868fbc90bb94c75
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 14:28:01'
+    message: remove plots
+    sha: f14b29497a98183c9625d3739da0a48d273d048a
