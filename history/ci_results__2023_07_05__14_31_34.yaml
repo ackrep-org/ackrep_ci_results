@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '450'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/450
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 14:10:45'
+    message: pyerk is now an official import -> treat as such
+    sha: 1def0a8db62880d13aac7d8f53158c94c4d277fa
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 14:28:01'
+    message: remove plots
+    sha: f14b29497a98183c9625d3739da0a48d273d048a
