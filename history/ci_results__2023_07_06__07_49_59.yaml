@@ -1,0 +1,16 @@
+ci_logs:
+  build_number: '455'
+  build_url: https://circleci.com/gh/ackrep-org/ackrep_data/455
+commit_logs:
+  ackrep_core:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-06 07:47:52'
+    message: cosmetics
+    sha: 998c807e9ca00eeb32d7c5269d9a58660610ed35
+  ackrep_data:
+    author: JuliusFiedler
+    branch: develop
+    date: '2023-07-05 15:43:00'
+    message: new structure in container
+    sha: 02c3d892db7e51dcd518725237fbbd89e640d810
